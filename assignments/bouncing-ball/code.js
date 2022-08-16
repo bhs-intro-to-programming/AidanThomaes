@@ -18,11 +18,11 @@ let ballSize = 15;
 // as the time value that is passed in is just the current time, i.e. the same
 // thing we would get from calling now().
 const drawFrame = (time) => {
-    drawBall(time % 300,15);
+    drawBall(15,15);
 };
 
 // Compute the height in pixels at time t after the ball hit the ground
-const height = (t) => 0;
+const height = (t) => 20;
 
 // Compute the shade of the shadow. 0 is black; 255 is white.
 const shadowDarkness = (h) => 0;
