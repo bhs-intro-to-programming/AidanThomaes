@@ -18,7 +18,7 @@ let ballSize = 15;
 // as the time value that is passed in is just the current time, i.e. the same
 // thing we would get from calling now().
 const drawFrame = (time) => {
-    let h =  height(now() - start)
+    let h = height(now() - start)
     drawBall(height,15);
 };
 
