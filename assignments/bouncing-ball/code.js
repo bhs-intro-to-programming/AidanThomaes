@@ -1,6 +1,6 @@
 // Change these to change the physics of our world.
-let bounce = 1.7;
-let gravity = 0.001;
+let bounce = 0.7;
+let gravity = 0.1;
 let ballSize = 15;
 
 // The framework will draw the background for us. It also provides three
@@ -18,7 +18,7 @@ let ballSize = 15;
 // as the time value that is passed in is just the current time, i.e. the same
 // thing we would get from calling now().
 const drawFrame = (time) => {
-    drawBall(time % 200,15);
+    drawBall(time,15);
 };
 
 // Compute the height in pixels at time t after the ball hit the ground
