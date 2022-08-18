@@ -51,7 +51,7 @@ drawLine(0, 0, width, height, 'red')
 
 drawLine(150, 600, 150, 0, 'red');
 
-drawLine(0, 1000, 500, 10)
+//drawLine(0, 1000, 500, 10)
 
 drawCircle(150, 180, 20)
 
