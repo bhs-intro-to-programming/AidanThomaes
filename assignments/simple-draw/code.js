@@ -45,4 +45,4 @@ drawFilledCircle(width - 50, height - 50, 50, 'red');
 
 drawFilledRect(5, height - 20, 45, 15, 'purple');
 
-drawSquare(5, 20, width, 10, 'pink')
+drawSquare(50, 20, width, 10, 'pink')
