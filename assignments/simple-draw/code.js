@@ -53,7 +53,7 @@ drawLine(150, 600, 150, 0, 'red');
 
 drawLine(0, 1000, 500, 10)
 
-drawCircle(150, 190, 20)
+drawCircle(150, 180, 20)
 
 drawRect(100, 120, 100, 120)
 
