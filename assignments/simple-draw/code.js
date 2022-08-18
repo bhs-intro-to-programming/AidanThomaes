@@ -52,3 +52,5 @@ drawLine(0, 50, height, 30, 'red');
 drawLine(200, 600, 100, -100, 'red');
 
 drawLine(0, 1000, 500, 10)
+
+drawCircle(500, 500, 10)
