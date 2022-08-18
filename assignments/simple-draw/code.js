@@ -51,4 +51,4 @@ drawLine(0, 50, height, 30, 'red');
 
 drawLine(200, 600, 100, -100, 'red');
 
-drawLine(0, 1000, 10, 10)
+drawLine(0, 1000, 1000, 10)
