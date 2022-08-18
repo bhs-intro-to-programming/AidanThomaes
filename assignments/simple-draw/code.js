@@ -54,3 +54,5 @@ drawLine(200, 600, 100, -100, 'red');
 drawLine(0, 1000, 500, 10)
 
 drawCircle(300, 170, 10)
+
+drawRect(height, width, 100, 100)
