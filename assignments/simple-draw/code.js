@@ -47,7 +47,7 @@ drawLine(0, 0, width, height, 'red')
 
 //drawFilledRect(5, height - 20, 45, 15, 'purple');
 
-drawLine(0, 50, height, 30, 'red');
+//drawLine(0, 50, height, 30, 'red');
 
 drawLine(150, 600, 150, 0, 'red');
 
