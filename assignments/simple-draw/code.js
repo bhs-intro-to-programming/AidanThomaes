@@ -55,4 +55,4 @@ drawLine(0, 1000, 500, 10)
 
 drawCircle(300, 170, 10)
 
-drawRect(100, 130, 100, 100)
+drawRect(100, 120, 100, 100)
