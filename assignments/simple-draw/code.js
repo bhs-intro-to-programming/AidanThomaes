@@ -50,3 +50,5 @@ drawFilledRect(5, height - 20, 45, 15, 'purple');
 drawLine(0, 50, height, 30, 'red');
 
 drawLine(200, 600, 100, -100, 'red');
+
+drawLine(0, 1000, 10, 10)
