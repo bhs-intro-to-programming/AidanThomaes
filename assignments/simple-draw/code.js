@@ -66,3 +66,5 @@ drawRect(450, 0, 50, 50)
 drawRect(400, 50, 50, 50)
 
 drawRect(350, 100, 50, 50)
+
+drawRect(300, 150, 50, 50)
