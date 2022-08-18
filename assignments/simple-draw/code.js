@@ -49,7 +49,7 @@ drawLine(0, 0, width, height, 'red')
 
 drawLine(0, 50, height, 30, 'red');
 
-drawLine(100, 600, 100, -100, 'red');
+drawLine(300, 600, 300, -100, 'red');
 
 drawLine(0, 1000, 500, 10)
 
