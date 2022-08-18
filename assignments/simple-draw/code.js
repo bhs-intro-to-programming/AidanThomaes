@@ -47,6 +47,6 @@ drawFilledCircle(width - 50, height - 50, 50, 'red');
 
 drawFilledRect(5, height - 20, 45, 15, 'purple');
 
-drawLine(70, 50, height, 30, 'red');
+drawLine(80, 50, height, 30, 'red');
 
 drawLine(200, 600, 100, -100, 'red');
