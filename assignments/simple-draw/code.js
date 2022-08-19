@@ -71,4 +71,4 @@ drawRect(300, 150, 50, 50)
 
 drawRect(250, 200, 50, 50)
 
-drawCircle
+drawCircle(200, 200, 10)
