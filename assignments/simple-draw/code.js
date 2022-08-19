@@ -98,3 +98,4 @@ drawCircle(300, 250, 10)
 drawCircle(340, 240, 40)
 
 drawLine (50, 700, 100, 500)
+drawLine (100, 500, 150, 700)
