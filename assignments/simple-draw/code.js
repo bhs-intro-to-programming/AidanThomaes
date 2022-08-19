@@ -98,7 +98,7 @@ drawCircle(300, 250, 10)
 drawCircle(340, 240, 40)
 
 drawLine (50, 600, 100, 520)
-drawLine (100, 500, 150, 600)
+drawLine (100, 520, 150, 600)
 drawLine (150, 600, 50, 540)
 drawLine (50, 540, 150, 540)
 drawLine (150, 540, 50, 600)
