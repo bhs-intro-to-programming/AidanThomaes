@@ -84,3 +84,6 @@ drawCircle(310, 110, 40)
 drawCircle(450, 100, 10)
 drawCircle(400, 150, 10)
 drawCircle(440, 140, 40)
+
+drawCircle(350, 150, 10)
+drawCircle(440, 140, 40)
