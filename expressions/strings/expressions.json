@@ -82,5 +82,11 @@
     "answer": "s = [0]",
     "correct": false,
     "timestamp": 1661378087040
+  },
+  {
+    "name": "First character",
+    "answer": "s = s.string [0]",
+    "correct": false,
+    "timestamp": 1661378099216
   }
 ]
