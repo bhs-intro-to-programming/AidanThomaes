@@ -94,5 +94,11 @@
     "answer": "s = s.string (0)",
     "correct": false,
     "timestamp": 1661378105478
+  },
+  {
+    "name": "First character",
+    "answer": "s = (0)",
+    "correct": false,
+    "timestamp": 1661378144897
   }
 ]
