@@ -124,5 +124,11 @@
     "answer": "s[1,length]",
     "correct": false,
     "timestamp": 1661378290279
+  },
+  {
+    "name": "All but first",
+    "answer": "s[length]",
+    "correct": false,
+    "timestamp": 1661378302943
   }
 ]
