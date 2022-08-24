@@ -172,5 +172,11 @@
     "answer": "s.substring(s.length-4,s.length-1)",
     "correct": false,
     "timestamp": 1661378444254
+  },
+  {
+    "name": "Last three",
+    "answer": "s.substring(s.length-3,s.length)",
+    "correct": true,
+    "timestamp": 1661378453679
   }
 ]
