@@ -16,5 +16,11 @@
     "answer": "'foobar'",
     "correct": true,
     "timestamp": 1661552246036
+  },
+  {
+    "name": "Indexing",
+    "answer": "'f'",
+    "correct": true,
+    "timestamp": 1661552250068
   }
 ]
