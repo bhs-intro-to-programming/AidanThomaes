@@ -28,5 +28,11 @@
     "answer": "storeOpen &&! isASale",
     "correct": false,
     "timestamp": 1661550722642
+  },
+  {
+    "name": "Wait for a sale?",
+    "answer": "storeOpen && isASale",
+    "correct": false,
+    "timestamp": 1661550724554
   }
 ]
