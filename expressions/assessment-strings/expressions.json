@@ -390,5 +390,12 @@
     "answer": "s[1, lenght]",
     "correct": false,
     "timestamp": 1661897422973
+  },
+  {
+    "name": "All but first",
+    "canonical": "s.substring(1)",
+    "answer": "s[1, length]",
+    "correct": false,
+    "timestamp": 1661897426813
   }
 ]
