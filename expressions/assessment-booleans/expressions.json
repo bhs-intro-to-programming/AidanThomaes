@@ -54,5 +54,12 @@
     "answer": "! fun || tired",
     "correct": true,
     "timestamp": 1661895941894
+  },
+  {
+    "name": "Wait for a sale?",
+    "canonical": "!storeOpen || !isASale",
+    "answer": "! storeOpen ||! isASale",
+    "correct": true,
+    "timestamp": 1661896012581
   }
 ]
