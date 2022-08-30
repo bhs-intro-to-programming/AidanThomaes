@@ -40,5 +40,12 @@
     "answer": "a/b",
     "correct": true,
     "timestamp": 1661897508096
+  },
+  {
+    "name": "Product",
+    "canonical": "a * b",
+    "answer": "a+b",
+    "correct": false,
+    "timestamp": 1661897528424
   }
 ]
