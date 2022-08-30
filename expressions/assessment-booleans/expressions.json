@@ -40,5 +40,12 @@
     "answer": "member &&! outSick",
     "correct": true,
     "timestamp": 1661895910821
+  },
+  {
+    "name": "Can go to prom?",
+    "canonical": "isSenior || invitedBySenior",
+    "answer": "isSenior || invitedBySenior",
+    "correct": true,
+    "timestamp": 1661895929462
   }
 ]
