@@ -96,5 +96,12 @@
     "answer": "Math.abs(a-b)",
     "correct": true,
     "timestamp": 1661897655492
+  },
+  {
+    "name": "Sum",
+    "canonical": "a + b",
+    "answer": "a+b",
+    "correct": true,
+    "timestamp": 1661897659821
   }
 ]
