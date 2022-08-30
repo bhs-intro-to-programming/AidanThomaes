@@ -47,5 +47,12 @@
     "answer": "isSenior || invitedBySenior",
     "correct": true,
     "timestamp": 1661895929462
+  },
+  {
+    "name": "Not feeling it?",
+    "canonical": "!fun || tired",
+    "answer": "! fun || tired",
+    "correct": true,
+    "timestamp": 1661895941894
   }
 ]
