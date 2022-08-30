@@ -5,5 +5,12 @@
     "answer": "!enoughSleep && lotsOfWork",
     "correct": true,
     "timestamp": 1661895802931
+  },
+  {
+    "name": "Lighting a fire?",
+    "canonical": "fireLit || !haveMatches",
+    "answer": "fireLit ||! haveMatches",
+    "correct": true,
+    "timestamp": 1661895834515
   }
 ]
