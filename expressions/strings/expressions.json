@@ -5,5 +5,12 @@
     "answer": "'foobar'",
     "correct": true,
     "timestamp": 1661895589638
+  },
+  {
+    "name": "Indexing",
+    "canonical": "'f'",
+    "answer": "'f'",
+    "correct": true,
+    "timestamp": 1661895595100
   }
 ]
