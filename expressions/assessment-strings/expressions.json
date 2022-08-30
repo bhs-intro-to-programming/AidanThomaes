@@ -320,5 +320,12 @@
     "answer": "s.toUpperCase",
     "correct": false,
     "timestamp": 1661897274960
+  },
+  {
+    "name": "UPPER CASE",
+    "canonical": "s.toUpperCase()",
+    "answer": "s.toUpperCase()",
+    "correct": true,
+    "timestamp": 1661897279729
   }
 ]
