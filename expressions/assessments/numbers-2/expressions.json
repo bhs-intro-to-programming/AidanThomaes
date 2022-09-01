@@ -12,5 +12,12 @@
     "answer": "Math.abs(x1-x2)+Math.abs(y1-y2)",
     "correct": true,
     "timestamp": 1662069214004
+  },
+  {
+    "name": "Sally's even more apples",
+    "canonical": "6432 - 4000",
+    "answer": "2432",
+    "correct": true,
+    "timestamp": 1662069220674
   }
 ]
