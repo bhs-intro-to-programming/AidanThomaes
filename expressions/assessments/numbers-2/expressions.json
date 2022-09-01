@@ -47,5 +47,12 @@
     "answer": "1337*32",
     "correct": true,
     "timestamp": 1662069253403
+  },
+  {
+    "name": "Distance",
+    "canonical": "Math.abs(a - b)",
+    "answer": "Math.abs(a-b)",
+    "correct": true,
+    "timestamp": 1662069266332
   }
 ]
