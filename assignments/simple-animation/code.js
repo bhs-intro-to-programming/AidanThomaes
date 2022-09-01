@@ -10,8 +10,8 @@ const drawFrame = (time) => {
   //drawFilledCircle((time / 3) % width, height/2 , time/100000, 'blue');
   //drawFallingTriangle(time / 10, 1000000/time);
   //drawFallingTriangle((time / 10) % width, 1000000/time);
-  drawFallingTriangle(100000/time, time/5)
-  drawFallingTriangle(100000/time, time)
+  //drawFallingTriangle(100000/time, time/5)
+  drawFallingTriangle(100000/time, time/3)
   drawFilledCircle(100000/time, time/3 % height, 2, 5)
 };
 
