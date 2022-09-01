@@ -11,7 +11,7 @@ const drawFrame = (time) => {
   //drawFallingTriangle(time / 10, 1000000/time);
   //drawFallingTriangle((time / 10) % width, 1000000/time);
   drawFallingTriangle(100000/time, time/10)
-  drawFallingTriangle(100000/time, time*2)
+  drawFallingTriangle(100000/time, time*5)
 };
 
 // This is a function that we define to make it easier to draw a triangle. You
