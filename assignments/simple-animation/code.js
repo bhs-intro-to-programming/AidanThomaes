@@ -17,7 +17,7 @@ const drawFrame = (time) => {
   //drawFilledCircle(time/10 % height, 1000000/time % width, 2)
   //drawFallingTriangle(Math.sin(time/500)*1000, time/20)
   //drawFallingTriangle(time/50, Math.sin(time/500)*1500)
-  drawFallingTriangle(Math.sin(time/100)*700,Math.sin(time/100)*700)
+  drawFallingTriangle(Math.sin(time/100)*700,Math.sin(time/500)*700)
 };
 
 // This is a function that we define to make it easier to draw a triangle. You
