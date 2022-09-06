@@ -1,2 +1,1 @@
-
-const add = (11,2) ; 
+add
