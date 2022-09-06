@@ -1,2 +1,2 @@
 
-const add = (x1,x2) ; 
+const add = (11,2) ; 
