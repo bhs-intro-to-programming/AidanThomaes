@@ -1,3 +1,5 @@
 x1=10
 x2=20
-add (x1+x2)
+const add = (x1+x2) ; {
+
+}
