@@ -20,6 +20,8 @@ const eatsWorms = (isRed,isSpotted) => (isRed||isSpotted)
 
 const eatsNuts = (isRed,isSpotted) => (isRed||!isSpotted)
 
+const eatsFish = (isRed,isSpotted) => (!isRed||isSpotted)
+
 const isFlobbyBird = (isRed,isSpotted) => (isRed&&isSpotted)
 
 const isBloggyBird = (isRed,isSpotted) => (isRed&&!isSpotted)
