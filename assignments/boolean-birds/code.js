@@ -22,7 +22,7 @@ const eatsNuts = (isRed,isSpotted) => (isRed||!isSpotted)
 
 const eatsFish = (isRed,isSpotted) => (!isRed||isSpotted)
 
-const eatsMice = (isRed,isSpotted) => (!isRed&&!isSpotted)
+const eatsMice = (isRed,isSpotted) => (!isRed||!isSpotted)
 
 const isFlobbyBird = (isRed,isSpotted) => (isRed&&isSpotted)
 
