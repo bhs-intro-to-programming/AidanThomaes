@@ -28,7 +28,9 @@ function isNotRed (bird) {
   return bird === 'Flibble' || bird === 'Globby'
 }
 
-
+function isNotSpotted (bird) {
+  return bird === 'Bloggy' || bird === 'Globby'
+}
 
 
 const eatsWorms = (isRed,isSpotted) => (isRed||isSpotted)
