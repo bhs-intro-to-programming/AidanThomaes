@@ -17,11 +17,15 @@
  *
  */
 function isRed (bird) {
-return bird === 'Flobby'|| bird === 'Bloggy'
+  return bird === 'Flobby'|| bird === 'Bloggy'
 }
 
 function isSpotted (bird) {
   return bird === 'Flobby' || bird === 'Flibble'
+}
+
+function isNotRed (bird) {
+  return bird === 'Flibble' || bird === 'Globby'
 }
 
 
