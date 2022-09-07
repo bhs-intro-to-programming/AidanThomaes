@@ -17,7 +17,7 @@
  *
  */
 function isRed (bird) {
-return bird (bird === 'Flobby'|| bird === 'Bloggy')
+return bird === 'Flobby'|| bird === 'Bloggy'
 }
 
 
