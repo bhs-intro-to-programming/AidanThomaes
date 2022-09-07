@@ -22,6 +22,5 @@ const euclideanDistance = (x1,y1,x2,y2) => {
 const distx = (x1,x2)
 euclideanDistance = (Math.sqrt(Math.abs((distx)**2)+Math.abs((y1-y2)**2)))
 
-const disty = (y1,y2)
 
 }
