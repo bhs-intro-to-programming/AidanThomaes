@@ -18,7 +18,7 @@ const drawFrame = (time) => {
   //drawFallingTriangle(Math.sin(time/500)*1000, time/20)
   //drawFallingTriangle(time/50, Math.sin(time/500)*1500)
   //drawFallingTriangle(Math.sin(time/50)*1000,Math.sin(time/500)*2000)
-  drawFallingTriangle(Math.acos(time/10000) ,500)
+  drawFallingTriangle(Math.acos(time/1000) ,500)
 };
 
 // This is a function that we define to make it easier to draw a triangle. You
