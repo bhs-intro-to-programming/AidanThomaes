@@ -18,8 +18,6 @@ const manhattanDistance = (x1,y1,x2,y2) => {
 return distance(x1,x2) + distance(y1,y2)
 }
 
-const euclideanDistance = (x1,y1,x2,y2) => {
-  Math.hypot(x1,x2)+Math.hypot(y1,y2)
-}
+const euclideanDistance = (x1,y1,x2,y2) =>  Math.hypot(x1,x2)+Math.hypot(y1,y2)
 
 //(Math.sqrt(Math.abs((x1-x2)**2)+Math.abs((y1-y2)**2)))
