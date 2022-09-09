@@ -31,5 +31,7 @@
 //
 // Feel free to play around in the REPL to make sure you understand how this
 // operator works.
-const pigLatin = (s) =>
-(s.search(/[aeiou]/)+s.substring(0,s.length)+AY)
+const pigLatin = (s) => {
+  var v = s.search([/aeiou/])
+  return s.substring
+}
