@@ -33,5 +33,5 @@
 // operator works.
 
 const pigLatin = (s) => s.substring((/aeiou/)) + s.substring(0,s.search((/aeiou/))) + 'ay' ;
-
+const advancedPigLatin = (s) => s.substring(s === /aeiou/ ? way : ay)
 
