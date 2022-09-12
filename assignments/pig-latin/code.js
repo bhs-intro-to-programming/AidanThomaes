@@ -31,7 +31,7 @@
 //
 // Feel free to play around in the REPL to make sure you understand how this
 // operator works.
-const search = (s) => s.search([/aeiou/])
-const pigLatin = (s) => (s.substring(search, s.length))
+
+const pigLatin = (s) => (s.substring(s.search[/aeiou/], s.length))
 
 
