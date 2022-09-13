@@ -32,6 +32,6 @@
 // Feel free to play around in the REPL to make sure you understand how this
 // operator works.
 
-const pigLatin = (s) => s.substring(1) + s.substring(0) + 'ay' ;
+const pigLatin = (s) => s.substring(1) + s.substring(0,1) + 'ay' ;
 
 
