@@ -17,16 +17,21 @@
  *
  */
 const isRed = (bird) => {
-  (bird === 'Flobby'|| bird === 'Bloggy');
+  return bird === 'Flobby'|| bird === 'Bloggy'
+};
 
-const isSpotted = (bird) => 
- (bird === 'Flobby' || bird === 'Flibble');
+const isSpotted = (bird) => {
+  return bird === 'Flobby' || bird === 'Flibble'
+};
 
-const isNotRed = (bird) => 
-  (bird === 'Flibble' || bird === 'Globby');
+const isNotRed = (bird) => {
+  return bird === 'Flibble' || bird === 'Globby'
+};
 
-const isNotSpotted = (bird) => 
- (bird === 'Bloggy' || bird === 'Globby');
+const isNotSpotted = (bird) => {
+  return bird === 'Bloggy' || bird === 'Globby'
+};
+
 
 const eatsWorms = (isRed,isSpotted) => (isRed||isSpotted);
 
