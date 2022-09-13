@@ -20,7 +20,7 @@ const isRed = (bird) => {
   return bird === 'Flobby'|| bird === 'Bloggy'
 }
 
-function isSpotted (bird) {
+const isSpotted = (bird) => {
   return bird === 'Flobby' || bird === 'Flibble'
 }
 
