@@ -24,11 +24,11 @@ const isSpotted = (bird) => {
   return bird === 'Flobby' || bird === 'Flibble'
 }
 
-function isNotRed (bird) {
+const isNotRed = (bird) => {
   return bird === 'Flibble' || bird === 'Globby'
 }
 
-function isNotSpotted (bird) {
+const isNotSpotted = (bird) => {
   return bird === 'Bloggy' || bird === 'Globby'
 }
 
