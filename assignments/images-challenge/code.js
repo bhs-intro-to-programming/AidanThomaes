@@ -34,9 +34,10 @@ while (x < 500) {
 };
 */
 
-const even = (x) => x*2;
+
 let x = 10;
 while (x < 500) {
+  const even = (x) => x*2;
   if (x = even){
   drawFilledCircle (0 + x , 300, 10, 'red');
   x = x + 20;
