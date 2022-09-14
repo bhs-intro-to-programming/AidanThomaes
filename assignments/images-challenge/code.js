@@ -24,6 +24,8 @@
  *  clear()
  */
 
+
+
 /*
 let x = 10;
 while (x < 500) {
@@ -31,3 +33,14 @@ while (x < 500) {
   x = x + 20;
 };
 */
+
+const even = (y) => y*2;
+let x = 10;
+while (x < 500) {
+  if (x = even){
+  drawFilledCirle (0 + x , 300, 10, 'red');
+  x = x + 20;
+  } else {
+    drawFilledCircle (0 + x, 300, 10, 'blue');
+  };
+};
