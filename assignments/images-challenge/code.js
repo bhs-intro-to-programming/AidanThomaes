@@ -24,8 +24,8 @@
  *  clear()
  */
 
-let x = 1;
+let x = 0;
 while (x < 100) {
   drawFilledCircle (0, 300, 5);
-  x = x + 1;
+  x = x + 2;
 };
