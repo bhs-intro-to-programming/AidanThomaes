@@ -34,7 +34,7 @@ while (x < 500) {
 };
 */
 
-const even = (y) => y*2;
+const even = (x) => x*2;
 let x = 10;
 while (x < 500) {
   if (x = even){
