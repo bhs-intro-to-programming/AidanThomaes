@@ -26,6 +26,6 @@
 
 let x = 0;
 while (x < 500) {
-  drawFilledCircle (0 + x, 300 , 10);
+  drawFilledCircle (0 + x, 300 , 10/x);
   x++;
 };
