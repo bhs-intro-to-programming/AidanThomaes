@@ -25,7 +25,7 @@
  */
 
 let x = 0;
-while (x < 50) {
+while (x < 100) {
   drawFilledCircle (0 + x, 300 , 10);
   x++;
 };
