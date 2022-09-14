@@ -27,5 +27,5 @@
 let x = 0;
 while (x < 100) {
   drawFilledCircle (0, 300, 5);
-  x++;
+  x = x + 1;
 }
