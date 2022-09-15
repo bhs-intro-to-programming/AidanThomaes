@@ -62,8 +62,8 @@ while (y < 300) {
 
 let x = 0
 //let y = 10
-while (x < 50) {
+while (x < 40) {
   drawRect (0 + x, 300, 10, 10)
 
-  x = x + 20
+  x = x + 30
 }
