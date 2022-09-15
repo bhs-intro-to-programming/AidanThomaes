@@ -60,11 +60,4 @@ while (y < 300) {
 }
 */
 
-let x = 0
-let y = 20
-while (x < 300, y < 300) {
-  drawRect (0 + x, 300, 10, 10)
-  drawRect (0 + y, 300, 10, 10, 'blue')
-  x = x + 20
-  y = y + 20
-}
+n = 8
