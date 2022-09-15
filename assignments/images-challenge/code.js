@@ -62,6 +62,6 @@ while (y < 300) {
 
 let n = 8
 while (n < 8) {
-  drawRect (width/n, height/n, 50, 50)
-  
+  drawRect (500/n, 600/n, 50, 50)
+  x = x - 1
 }
