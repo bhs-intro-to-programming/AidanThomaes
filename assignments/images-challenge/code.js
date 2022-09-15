@@ -39,8 +39,9 @@ while (x < 500) {
   drawFilledCircle (0 + x, 300, 10);
   x = x + 40;
 };
-let y = 10;
+let y = 30;
 while (x < 500) {
-  drawFilledCircle ()
-}
+  drawFilledCircle (0 + y, 300, 10);
+  y = y+40;
+};
 
