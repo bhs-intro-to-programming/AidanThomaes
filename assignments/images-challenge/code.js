@@ -48,4 +48,4 @@ while (y < 500) {
 */
 
 drawCircle (250, 300, 250, 'red', 25)
-drawCircle (250, 300, 200, 'blue', 25)
+drawCircle (250, 300, 225, 'blue', 25)
