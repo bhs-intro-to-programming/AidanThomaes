@@ -54,6 +54,6 @@ while (x < 288) {
 
 let y = 50
 while (y < 263) {
-  drawCircle (250, 300, 263 - x, 'blue', 25)
+  drawCircle (250, 300, 300 - x, 'blue', 25)
   y = y + 50
 }
