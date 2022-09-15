@@ -47,13 +47,13 @@ while (y < 500) {
 };
 */
 let x = 50
-while (x < 288) {
+while (x < 30) {
   drawCircle (250, 300, 288 - x, 'red', 25)
   x = x + 50
 }
 
 let y = 50
-while (y < 250) {
-  drawCircle (250, 300, 250 - x, 'blue', 25)
+while (y < 300) {
+  drawCircle (250, 300, 263 - y, 'blue', 25)
   y = y + 50
 }
