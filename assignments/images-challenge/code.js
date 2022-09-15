@@ -47,4 +47,4 @@ while (y < 500) {
 };
 */
 
-drawCircle (250, 300, 250, 'red', 10)
+drawCircle (250, 300, 250, 'red', 50)
