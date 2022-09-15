@@ -32,20 +32,17 @@ while (x < 500) {
   drawFilledCircle (0 + x, 300, 10, 'red');
   x = x + 20;
 };
-
+*/
 
 let x = 10; 
 while (x < 500) {
   drawFilledCircle (0 + x, 300, 10, 'red');
+  drawFilledCircle (0 + y, 300, 10, 'blue');
   x = x + 40;
 };
 
-let y = 30;
-while (y < 500) {
-  drawFilledCircle (0 + y, 300, 10, 'blue');
-  y = y+40;
-};
-*/
 
-drawCircle (250, 300, 250, 'red', 25)
-drawCircle (250, 300, 225, 'blue', 25)
+
+
+//drawCircle (250, 300, 250 - x, 'red', 25)
+//drawCircle (250, 300, 225 - x, 'blue', 25)
