@@ -51,7 +51,7 @@ while (x < 30) {
   drawCircle (250, 300, 300 - x, 'red', 25)
   x = x + 50
 }
-
+/*
 let y = 50
 while (y < 300) {
   drawCircle (250, 300, 250 - y, 'blue', 25)
