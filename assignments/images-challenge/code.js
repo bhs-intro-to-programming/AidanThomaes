@@ -29,19 +29,14 @@
 /*
 let x = 10;
 while (x < 500) {
-  drawFilledCircle (0 + x, 300 , 10);
+  drawFilledCircle (0 + x, 300, 10);
   x = x + 20;
 };
 */
 
+let x = 10; 
+while ( x < 500) {
+  drawFilledCircle ( 0 + x, 300, 10);
+  x = x + 40;
+}
 
-let x = 10;
-while (x < 500) {
-  const even = (x) => x*2;
-  if (x = even){
-  drawFilledCircle (0 + x , 300, 10, 'red');
-  x = x + 20;
-  } else {
-    drawFilledCircle (0 + x, 300, 10, 'blue');
-  };
-};
