@@ -34,7 +34,7 @@ while (x < 500) {
 };
 */
 
-let x = 50; 
+let x = 10; 
 while (x < 500) {
   drawFilledCircle (0 + x, 300, 10);
   x = x + 40;
