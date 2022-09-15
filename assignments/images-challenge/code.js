@@ -46,6 +46,9 @@ while (y < 500) {
   y = y+40;
 };
 */
-
+let x = 50
+while (x < 251) {
 drawCircle (250, 300, 250 - x, 'red', 25)
-drawCircle (250, 300, 225 - x, 'blue', 25)
+//drawCircle (250, 300, 225 - x, 'blue', 25)
+x = x + 50
+}
