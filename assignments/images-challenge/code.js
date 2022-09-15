@@ -46,3 +46,5 @@ while (y < 500) {
   y = y+40;
 };
 */
+
+drawFilledCircle (250, 300, 10)
