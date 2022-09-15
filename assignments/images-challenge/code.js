@@ -62,3 +62,4 @@ while (y < 300) {
 
 const n = 8
 drawRect (width/n, height/n, 50, 50)
+n = n-1
