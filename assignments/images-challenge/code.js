@@ -60,4 +60,5 @@ while (y < 300) {
 }
 */
 
-n = 8
+const n = 8
+drawRect (width/2, height/2, 50, 50)
