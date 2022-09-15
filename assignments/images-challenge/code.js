@@ -64,7 +64,7 @@ let x = 0
 let y = 10
 while (x < 40) {
   drawRect (0 + x, 300, 10, 10)
-  drawRect (0 + y, 300, 10, 10)
-  x = x + 25
-  y = y + 25
+  drawRect (0 + y, 300, 10, 10, 'blue')
+  x = x + 20
+  y = y + 20
 }
