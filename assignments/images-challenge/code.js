@@ -65,5 +65,5 @@ let x = 0
 while (x < 40) {
   drawRect (0 + x, 300, 10, 10)
 
-  x = x + 30
+  x = x + 25
 }
