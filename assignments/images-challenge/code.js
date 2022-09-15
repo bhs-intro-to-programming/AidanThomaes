@@ -32,13 +32,14 @@ while (x < 500) {
   drawFilledCircle (0 + x, 300, 10);
   x = x + 20;
 };
-*/
+
 
 let x = 10; 
 while (x < 500) {
   drawFilledCircle (0 + x, 300, 10);
   x = x + 40;
 };
+*/
 let y = 30;
 while (x < 500) {
   drawFilledCircle (0 + y, 300, 10);
