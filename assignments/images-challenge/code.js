@@ -62,13 +62,13 @@ while (y < 300) {
 
 let n = 0
 while (n < 4) {
-  drawFilledRect (50 + (100 * n), 100 + (100 * n), 50, 50, 'red');
-  drawFilledRect (50 + (100 * n), 400 - ( 100 * n), 50, 50)
-  drawFilledRect (50 + (100 * n), 100, 50, 50)
+  drawFilledRect (50 + (100 * n), 100, 50, 50, 'red');
+  
+  
   drawFilledRect (100 + (100 * n), 250, 50, 50)
 
   drawFilledRect (100 + (100 * n), 100 + (100 * n), 50, 50, 'blue')
-  drawFilledRect (100 + (100 * n), 400 - ( 100 * n), 50, 50)
+ 
   drawFilledRect (50 + (100 * n), 250, 50, 50)
   drawFilledRect (50 + (100 *n), 150, 50, 50)
 
