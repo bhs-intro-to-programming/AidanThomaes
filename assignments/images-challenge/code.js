@@ -64,7 +64,7 @@ let n = 0
 while (n < 4) {
   drawRect (50 + (100 * n), 100, 50, 50, 'red');
   drawRect (100 + (100 * n), 150, 50, 50)
-  //drawRect (50 + (100 * n), 200, 50, 50, 'red')
+  drawRect (50 + (100 * n), 200, 50, 50, 'red')
   n = n + 1;
 };
 
