@@ -47,24 +47,25 @@ while (y < 500) {
 };
 */
 /*
-let x = 50
+let x = 50;
 while (x < 300) {
-  drawCircle (250, 300, 288 - x, 'red', 25)
-  x = x + 50
-}
+  drawCircle (250, 300, 288 - x, 'red', 25);
+  x = x + 50;
+};
 
 let y = 50
 while (y < 300) {
-  drawCircle (250, 300, 263 - y, 'blue', 25)
-  y = y + 50
-}
+  drawCircle (250, 300, 263 - y, 'blue', 25);
+  y = y + 50;
+};
 */
 
 let n = 0
 while (n < 8) {
-  drawRect (50 + (50 * n), 100, 50, 50, 'red')
-  drawRect (100 + 100 * n, 100, 50, 50, 'blue')
-  drawRect (100 + 100 * n, 100, 50, 50, 'blue')
-  n = n + 1
-
-}
+  drawRect (50 + (50 * n), 100, 50, 50, 'red');
+  n = n + 1;
+};
+while (n < 4) {
+  drawRect (100 + 100 * n, 100, 50, 50, 'blue');
+  n = n + 1;
+};
