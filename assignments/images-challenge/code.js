@@ -64,6 +64,6 @@ while (y < 300) {
 let n = 0;
 while (n < 4) {
   drawFilledRect (50 + 100 * n, 50 + 100 * n, 50, 50)
-  drawFilledRect (50 + 100 * n, 100*n - 100 * n, 50, 50)
+  drawFilledRect (50 , 100 + 100 * n, 50, 50)
 n = n + 1
 }
