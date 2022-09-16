@@ -64,7 +64,7 @@ let n = 0
 while (n < 8) {
   drawRect (50 + (50 * n), 100, 50, 50, 'red');
   n = n + 1;
-};
+}
 while (n < 4) {
   drawRect (100 + 100 * n, 100, 50, 50, 'blue');
   n = n + 1;
