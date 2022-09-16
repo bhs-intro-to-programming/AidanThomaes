@@ -67,4 +67,4 @@ while (n < 4) {
   n = n + 1;
 };
 
-drawRect (50, 50, 50, 50)
+drawRect (110, 50, 50, 50)
