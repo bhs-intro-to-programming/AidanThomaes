@@ -64,6 +64,7 @@ let n = 0
 while (n < 8) {
   drawRect (50 + (50 * n), 100, 50, 50, 'red')
   drawRect (100 + 100 * n, 100, 50, 50, 'blue')
+  drawRect (100 + 100 * n, 100, 50, 50, 'blue')
   n = n + 1
 
 }
