@@ -71,7 +71,7 @@ while (n < 4) {
   drawFilledRect (50 + (100 * n), 400, 50, 50);
   drawFilledRect (100 + (100 * n), 450, 50, 50);
 
-  drawFilledRect (50 + (100 * n), 150, 50, 50, 'blue');
+  drawFilledRect (100 + (100 * n), 100, 50, 50, 'blue');
   drawFilledRect (50 + (100 * n), 150, 50, 50);
   drawFilledRect (50 + (100 * n), 250, 50, 50);
  
