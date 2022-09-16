@@ -63,7 +63,8 @@ while (y < 300) {
 let n = 0
 while (n < 4) {
   drawRect (50 + (110 * n), 100, 50, 50, 'red');
-  drawRect (50, 100 + (50 * n), 50, 50)
+  
   n = n + 1;
 };
 
+drawRect (50, 50, 50, 50)
