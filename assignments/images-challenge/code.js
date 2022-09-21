@@ -31,7 +31,7 @@
 let x = 0;
 while (x < width) {
   drawFilledCircle (0 + x, 300, 10, 'red');
-  x = x + 20;
+  x = x + 40;
 };
 
 /*
