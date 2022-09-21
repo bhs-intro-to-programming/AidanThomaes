@@ -25,21 +25,23 @@
  */
 
 
-/*
+
 let radius = 10
 let diameter = radius * 2
 let x = 0;
-while (x < width - radius) {
+while (x < width / 4 - radius) {
   drawFilledCircle (0 + radius + x, height/2, radius , 'red');
   x = x + diameter;
 };
-*/
 
+/*
 let radius = 10
 let diameter = radius * 2
 let x = 0
-while (x < )
-
+while (x < width - radius) {
+  
+}
+*/
 /*
 let x = 50;
 while (x < 300) {
