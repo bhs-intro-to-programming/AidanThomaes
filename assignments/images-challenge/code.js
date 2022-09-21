@@ -28,10 +28,10 @@
 
 
 
-let x = 0;
+let x = 10;
 while (x < width) {
   drawFilledCircle (0 + x, 300, 10, 'red');
-  x = x + 40;
+  x = x + 20;
 };
 
 /*
