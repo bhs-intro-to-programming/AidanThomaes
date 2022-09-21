@@ -30,7 +30,7 @@
 
 let x = 20;
 while (x < 500) {
-  drawFilledCircle (0 + x, 300, x, 'red');
+  drawFilledCircle (0 + x, 300, x / width, 'red');
   x = x + 20;
 };
 
