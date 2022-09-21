@@ -26,14 +26,14 @@
 
 
 
-/*
+
 let x = 10;
 while (x < 500) {
   drawFilledCircle (0 + x, 300, 10, 'red');
   x = x + 20;
 };
 
-
+/*
 let x = 10; 
 while (x < 500) {
   drawFilledCircle (0 + x, 300, 10, 'red');
@@ -60,7 +60,7 @@ while (y < 300) {
 };
 */
 
-
+/*
 let n = 0;
 while (n < 4) {
   drawFilledRect (50 + (100 * n), 100, 50, 50, 'red');
@@ -86,4 +86,4 @@ while (n < 4) {
   n = n + 1;
 };
 
-
+*/
