@@ -30,7 +30,7 @@
 const radius = (y) => 100/10
 let x = 10;
 while (x < 500) {
-  drawFilledCircle (0 + x, 300, radius, 'red');
+  drawFilledCircle (0 + x, 300, 10, 'red');
   x = x + 20;
 };
 
