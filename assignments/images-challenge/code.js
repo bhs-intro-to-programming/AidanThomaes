@@ -31,7 +31,7 @@
 let x = 20;
 while (x < 500) {
   drawFilledCircle (0 + x, 300, 20, 'red');
-  x = 2 * x;
+  x = x + 20;
 };
 
 /*
