@@ -27,7 +27,7 @@
 
 
 
-const radius = (y) => width/10
+const radius = (y) => 100/10
 let x = 10;
 while (x < 500) {
   drawFilledCircle (0 + x, 300, radius, 'red');
