@@ -26,7 +26,7 @@
 
 
 
-let radius = 30
+let radius = 10
 let diameter = radius * 2
 let x = 0;
 while (x < width - radius) {
