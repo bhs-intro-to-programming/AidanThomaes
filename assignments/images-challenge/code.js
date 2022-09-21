@@ -26,8 +26,9 @@
 
 
 
-const r = (x) => width/x
+
 let x = 10;
+const r = (x) => width/x
 while (x < 500) {
   drawFilledCircle (0 + x, 300, r, 'red');
   x = x + 20;
