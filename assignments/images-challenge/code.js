@@ -28,9 +28,9 @@
 
 
 
-let x = 20;
+let x = 10;
 while (x < 500) {
-  drawFilledCircle (0 + x, 300, 20, 'red');
+  drawFilledCircle (0 + x, 300, 10, 'red');
   x = x + 20;
 };
 
