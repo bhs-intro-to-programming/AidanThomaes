@@ -26,13 +26,12 @@
 
 
 
-let radius = 12
-let diameter = radius / 2
 
-let x = 0;
+
+let x = 10;
 while (x < width - diameter) {
   drawFilledCircle (0 + x, 300, 10, 'red');
-  x = x + diameter;
+  x = x + 20;
 };
 
 /*
