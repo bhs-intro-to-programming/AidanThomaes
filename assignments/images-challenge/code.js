@@ -30,19 +30,19 @@ let radius = 45
 let diameter = radius / 2
 let x = 0;
 while (x < width - radius) {
-  drawFilledCircle (0 + diameter + x, 300, radius , 'red');
+  drawFilledCircle (0 + radius + x, 300, radius , 'red');
   x = x + radius * 2;
 };
 
 /*
 let x = 10; 
-while (x < 500) {
+while (x < width) {
   drawFilledCircle (0 + x, 300, 10, 'red');
   x = x + 40;
 };
 
 let y = 30;
-while (y < 500) {
+while (y < width) {
   drawFilledCircle (0 + y, 300, 10, 'blue');
   y = y+40;
 };
