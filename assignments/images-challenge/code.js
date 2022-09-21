@@ -31,7 +31,7 @@ let diameter = radius / 2
 let x = 0;
 while (x < width - diameter) {
   drawFilledCircle (0 + radius + x, 300, radius , 'red');
-  x = x + diameter * 2;
+  x = x + radius ;
 };
 
 /*
