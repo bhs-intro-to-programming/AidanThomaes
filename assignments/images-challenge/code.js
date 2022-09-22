@@ -53,4 +53,4 @@ const drawAltLine = (radius) => {
   }
 
 }
-drawAltLine (10)
+drawAltLine (50)
