@@ -25,25 +25,27 @@
  */
 
 
-/*
-let radius = 10
-let diameter = radius * 2
-let x = 0;
-while (x < width - radius) {
-  drawFilledCircle (0 + radius + x, height/2, radius, 'red');
-  x = x + diameter;
-};
-*/
 
-const drawCircleLine = (r) => {
-  let radius = 10
+const drawCircleLine = (radius) => {
   let diameter = radius * 2
-  let x = 0
-  while (x < width - radius) {
-    drawFilledCircle (0 + radius + x, height/2, radius, 'red')
-    drawFilledCircle (0 + radius + x, height/2, radius, 'blue')
+  let x = 0;
+  while (x < width / diameter) {
+    drawFilledCircle (0 + radius + x, height/2, radius, 'red');
+    x = x + diameter;
   }
 }
- 
+drawCircleLine (10)
 
+
+
+ 
+const drawaltline = (radius) => {
+  let diameter = radius * 2
+  let x = 0
+  while (x < width - diameter) {
+    drawFilledCircle (0 + radius + x, height/2, radius, 'red')
+    x = x + 
+  }
+
+}
 
