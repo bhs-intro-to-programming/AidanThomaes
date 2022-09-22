@@ -48,7 +48,7 @@ const drawAltLine = (radius) => {
   }
   let y = 0
   while (y * diameter + diameter < width) {
-    drawFilledCircle (0 + diameter + (radius * 3) + (y * diameter * 2), height/2, radius, 'blue')
+    drawFilledCircle (0 + (radius * 3) + (y * diameter * 2), height/2, radius, 'blue')
     y = y + 1
   }
 }
