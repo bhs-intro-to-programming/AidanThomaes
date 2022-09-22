@@ -47,12 +47,12 @@ const drawAltLine = (radius) => {
     x = x + 1;
   }
   let y = 0
-  while (y * diameter + diameter < width) {
+  while (y * diameter + diameter-1 < width) {
     drawFilledCircle (0 + (radius * 3) + (y * diameter * 2), height/2, radius, 'blue')
     y = y + 1
   }
 }
-drawAltLine (12)
+drawAltLine (1)
 
 const drawConcentricCircle = (radius) => {
 
