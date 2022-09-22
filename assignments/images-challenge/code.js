@@ -52,7 +52,7 @@ const drawAltLine = (radius) => {
     y = y + 1
   }
 }
-drawAltLine (10)
+drawAltLine (12)
 
 const drawConcentricCircle = (radius) => {
 
