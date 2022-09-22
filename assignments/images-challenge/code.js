@@ -34,7 +34,7 @@ const drawCircleLine = (radius) => {
     x = x + diameter;
   }
 }
-drawCircleLine (25)
+drawCircleLine (17)
 
 
 
