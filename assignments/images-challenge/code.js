@@ -30,7 +30,7 @@ const drawCircleLine = (radius) => {
   let diameter = radius * 2
   let x = 0;
   while (x * diameter + diameter < width) {
-    drawFilledCircle (0 + radius + x * diameter, height/2, radius, 'red');
+    drawFilledCircle (0 + radius + radius/2 + x * diameter, height/2, radius, 'red');
     x = x + 1;
   }
 }
