@@ -51,6 +51,9 @@ const drawAltLine = (radius) => {
     drawFilledCircle (0 + radius * 3 + y * 2, height/2, radius, 'blue')
     y = y + diameter
   }
+}
+drawAltLine (60)
+
+const drawConcentricCircle = (radius) => {
 
 }
-drawAltLine (50)
