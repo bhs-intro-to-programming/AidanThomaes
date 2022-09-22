@@ -34,18 +34,19 @@ const drawCircleLine = (radius) => {
     x = x + diameter;
   }
 }
-drawCircleLine (17)
+drawCircleLine ()
 
 
 
-/* 
-const drawaltline = (radius) => {
+
+const drawAltLine = (radius) => {
   let diameter = radius * 2
   let x = 0
   while (x < width - diameter) {
-    drawFilledCircle (0 + radius + x, height/2, radius, 'red')
-    x = x + 
+    drawFilledCircle (0 + radius + x * 2, height/2, radius, 'red')
+    x = x + diameter
   }
+  
 
 }
-*/
+drawAltLine (10)
