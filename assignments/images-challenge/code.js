@@ -38,7 +38,7 @@ drawCircleLine (10)
 
 
 
- 
+/* 
 const drawaltline = (radius) => {
   let diameter = radius * 2
   let x = 0
@@ -48,4 +48,4 @@ const drawaltline = (radius) => {
   }
 
 }
-
+*/
