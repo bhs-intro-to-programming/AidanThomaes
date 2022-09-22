@@ -34,7 +34,7 @@ const drawCircleLine = (radius) => {
     x = x + 1;
   }
 }
-drawCircleLine (20)
+drawCircleLine ()
 
 
 
@@ -52,7 +52,7 @@ const drawAltLine = (radius) => {
     y = y + 1
   }
 }
-drawAltLine ()
+drawAltLine (20)
 
 const drawConcentricCircle = (radius) => {
 
