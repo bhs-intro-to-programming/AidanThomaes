@@ -34,7 +34,7 @@ const drawCircleLine = (r) => {
     drawFilledCircle (x, width/2, r, 'red')
   }
 }
-drawCircleLine ()
+drawCircleLine (10)
 
 
 
