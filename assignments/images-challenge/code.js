@@ -27,32 +27,28 @@
 
 
 const drawCircleLine = (r) => {
-  let d = r * 2
-  const numCircles = Math.floor(width/d)
-  for(let n = 0; n < numCircles; n++){
-    const x = r + d * n
+  let d = r * 2;
+  const numCircles = Math.floor(width / d);
+  for(let n = 0; n < numCircles; n++) {
+    const x = r + d * n;
+    drawFilledCircle (x, height/2, r, 'red');
+  };
+};
+drawCircleLine ();
+
+
+
+
+const drawAltLine = (r) => {
+  let d = r * 2;
+  const numCircles = Math.floor(width / d);
+  for(let n = 0; n < numCircles; n++) {
+    const x = r + d * 2 * n;
     drawFilledCircle (x, height/2, r, 'red')
   }
+  
 }
-drawCircleLine (30)
-
-
-
-
-const drawAltLine = (radius) => {
-  let diameter = radius * 2
-  let x = 0;
-  while (x * diameter + diameter < width) {
-    drawFilledCircle (0 + radius + (x * diameter), height/2, radius, 'red');
-    x = x + 1;
-  }
-  let y = 0
-  while (y * diameter + diameter < width) {
-    drawFilledCircle (0 + (radius * 3) + (y * diameter * 2), height/2, radius, 'blue')
-    y = y + 1
-  }
-}
-drawAltLine ()
+drawAltLine (10)
 
 const drawConcentricCircle = (radius) => {
 
