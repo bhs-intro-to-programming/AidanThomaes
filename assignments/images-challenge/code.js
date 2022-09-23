@@ -59,7 +59,7 @@ const drawConcentricCircle = (r) => {
     drawFilledCircle (width / 2, height / 2, r * n, 'red')
   }
   for (let n = width / d - r; n > 0; n = n - 1){
-    drawFiledCircle (width / 2, height / 2, r * n, 'blue')
+    drawFilledCircle (width / 2, height / 2, r * n, 'blue')
   }
 }
 drawConcentricCircle (10);
