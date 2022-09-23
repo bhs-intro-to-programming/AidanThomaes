@@ -47,12 +47,13 @@ const drawAltLine = (r) => {
     drawFilledCircle (x, height/2, r, 'red');
     drawFilledCircle (x + 2 * r, height/2, r, 'blue')
   };
- 
 };
-drawAltLine (10);
-/*
+drawAltLine ();
+
 const drawConcentricCircle = (n) => {
-  for (let r = width)
+  for (let d = width; d > 0; d = d - n) {
+    drawCircle (width/2, height/2, d, 'red')
+  }
 
 }
-*/
+
