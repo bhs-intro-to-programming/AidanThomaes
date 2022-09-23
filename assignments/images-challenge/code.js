@@ -55,7 +55,7 @@ drawAltLine ();
 
 const drawConcentricCircle = (r) => {
   let d = r * 2;
-  for (let n = width / diameter; n > 0; n = n - 1) {
+  for (let n = width / d; n > 0; n = n - 1) {
     drawFilledCircle (width / 2, height / 2, r * n, 'red')
   }
 }
