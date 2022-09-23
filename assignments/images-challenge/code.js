@@ -58,5 +58,8 @@ const drawConcentricCircle = (r) => {
   for (let n = width / d; n > 0; n = n - 1) {
     drawFilledCircle (width / 2, height / 2, r * n, 'red')
   }
+  for (let n = width / d - r; n > 0; n = n - 1){
+    drawFiledCircle (width / 2, height / 2, r * n, 'blue')
+  }
 }
 drawConcentricCircle (10);
