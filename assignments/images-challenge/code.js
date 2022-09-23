@@ -44,15 +44,18 @@ const drawAltLine = (r) => {
   const numCircles = Math.floor(width / d);
   for (let n = 0; n < numCircles; n++) {
     const x = r + d * 2 * n;
-    drawFilledCircle (x, height/2, r, 'red')
-  }
+    drawFilledCircle (x, height/2, r, 'red');
+  };
   for (let n = 0; n < numCircles; n++) {
-    const x = r *3 + d * 2 * n;
-    drawFilledCircle (x, height/2, r, 'blue')
+    const x = r * 3 + d * 2 * n;
+    drawFilledCircle (x, height/2, r, 'blue');
+  };
+};
+drawAltLine ();
+
+const drawConcentricCircle = (r) => {
+  let d = r * 2;
+  for (let n = width / diameter; n > 0; n = n - 1) {
+    drawFilledCircle (width / 2, height / 2, r * n, 'red')
   }
-}
-drawAltLine (10)
-
-const drawConcentricCircle = (radius) => {
-
 }
