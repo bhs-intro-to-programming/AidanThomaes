@@ -45,21 +45,14 @@ const drawAltLine = (r) => {
   for (let n = 0; n < numCircles; n++) {
     const x = r + d * 2 * n;
     drawFilledCircle (x, height/2, r, 'red');
+    drawFilledCircle (x + 2 * r, height/2, r, 'blue')
   };
-  for (let n = 0; n < numCircles; n++) {
-    const x = r * 3 + d * 2 * n;
-    drawFilledCircle (x, height/2, r, 'blue');
-  };
+ 
 };
-drawAltLine ();
+drawAltLine (10);
 
-const drawConcentricCircle = (r) => {
-  let d = r * 2;
-  for (let n = width / d; n > 0; n = n - 1) {
-    drawFilledCircle (width / 2, height / 2, r * n, 'red')
-  }
-  for (let n = width / d - 50 ; n > 0; n = n - 1){
-    drawFilledCircle (width / 2, height / 2, r * n, 'blue')
-  }
+const drawConcentricCircle = (n) => {
+  for (let r = width)
+
 }
-drawConcentricCircle (10);
+
