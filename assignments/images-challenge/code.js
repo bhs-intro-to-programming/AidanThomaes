@@ -26,12 +26,12 @@
 
 
 
-const drawCircleLine = (radius) => {
-  let diameter = radius * 2
-  let x = 0;
-  while (x * diameter + diameter < width) {
-    drawFilledCircle (0 + radius + (x * diameter), height/2, radius, 'red');
-    x = x + 1;
+const drawCircleLine = (r) => {
+  let d = r * 2
+  const numCircles = Math.floor(width/d)
+  for(let n = 0; n < numCircles; n++){
+    const x = r + d * i
+    drawFilledCircle (x, width/2, radius, 'red')
   }
 }
 drawCircleLine ()
@@ -52,7 +52,7 @@ const drawAltLine = (radius) => {
     y = y + 1
   }
 }
-drawAltLine (10)
+drawAltLine ()
 
 const drawConcentricCircle = (radius) => {
 
