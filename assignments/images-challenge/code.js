@@ -52,10 +52,10 @@ drawAltLine ();
 
 const drawConcentricCircle = (n) => {
   for (let d = width; d > 0; d = d - n) {
-    drawCircle (width/2, height/2, d /2, 'red')
+    drawCircle (width/2, height/2, d - n, 'red')
   }
   for (let d = width - n  ; d > 0; d = d - n) {
-    drawCircle (width/2, height/2, d/2, 'blue')
+    drawCircle (width/2, height/2, d - n, 'blue')
   }
 }
 drawConcentricCircle (40)
