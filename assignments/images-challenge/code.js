@@ -55,7 +55,7 @@ const drawConcentricCircle = (n) => {
   while (d > 0) {
     drawFilledCircle (width/2, height/2, d, 'red')
     drawFilledCircle (width/2, height/2, d, 'blue')
-    d = d - width / n
+    d = d - 1 
   }
   
 }
