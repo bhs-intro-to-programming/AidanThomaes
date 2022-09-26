@@ -51,10 +51,10 @@ const drawAltLine = (r) => {
 drawAltLine ();
 
 const drawConcentricCircle = (n) => {
-  for (let d = width; d > 0; d = d - width /n) {
+  for (let d = width; d > 0; d = d - width / n ) {
     drawCircle (width/2, height/2, d, 'red')
   }
 
  
 }
-drawConcentricCircle (30)
+drawConcentricCircle (20)
