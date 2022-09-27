@@ -52,7 +52,7 @@ drawAltLine ();
 
 const pattern = (n) => {
   let d = width
-  while (d . 0) {
+  while (d < 0) {
     drawFilledCircle (width/2, height/2, d, 'red')
     drawFilledCircle (width/2, height/2, d, 'blue')
     d = d - 1 
@@ -62,8 +62,8 @@ const pattern = (n) => {
 
 
 const drawConcentricCicles = (n) => {
-  let d = width
-  while (d < 300) {
-    drawFilledCircle
+  let r = width/2
+  while (d > 0) {
+    drawCircle (width/2, height/2,r -  )
   }
 }
