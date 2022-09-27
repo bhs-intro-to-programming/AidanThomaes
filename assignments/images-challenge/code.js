@@ -50,7 +50,7 @@ const drawAltLine = (r) => {
 };
 drawAltLine ();
 
-const drawConcentricCircle = (n) => {
+const pattern = (n) => {
   let d = width
   while (d > 0) {
     drawFilledCircle (width/2, height/2, d, 'red')
@@ -59,4 +59,6 @@ const drawConcentricCircle = (n) => {
   }
   
 }
-drawConcentricCircle (50)
+pattern ()
+
+const drawConcentricCicles
