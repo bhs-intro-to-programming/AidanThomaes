@@ -59,11 +59,11 @@ const pattern = (n) => {
   }
   
 }
-pattern ()
+
 
 const drawConcentricCicles = (n) => {
   let d = width
   while (d > 0) {
-    
+
   }
 }
