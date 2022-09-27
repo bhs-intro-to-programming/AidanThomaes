@@ -67,7 +67,7 @@ const drawConcentricCircles = (n) => {
   while (n > 0 ) {
     drawCircle (width/2, height/2,r)
     n = n - 1
-    r = r - n 
+    r = r + n 
   }
 }
 drawConcentricCircles (5)
