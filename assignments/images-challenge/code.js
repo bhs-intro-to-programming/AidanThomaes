@@ -64,7 +64,7 @@ const pattern = (n) => {
 const drawConcentricCircles = (n) => {
   while (n < 10) {
     
-    drawCircle (width/2, height/2, width/2 ) 
+    drawCircle (width/2, height/2, 50 ) 
     n = n + 1
   }
 }
