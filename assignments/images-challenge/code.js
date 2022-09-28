@@ -77,8 +77,8 @@ const drawCheckerBoard = (n) => {
   let w = n
   let h = n
   
-    while (x < x - w) {
-      drawRect (x * 2, y, n, n)
+    while (x < x - n) {
+      drawRect (n * 2, y, n, n)
       x = x + width / n
     }
   
