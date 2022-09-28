@@ -84,4 +84,4 @@ const drawCheckerBoard = (n) => {
   
 
 }
-drawCheckerBoard (5)
+drawCheckerBoard (50)
