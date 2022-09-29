@@ -62,27 +62,12 @@ const pattern = (n) => {
 
 
 const drawConcentricCircles = (n) => {
+  let x = n
   while (n < width) {
     drawFilledCircle (width/2, height/2, width/2 - n, 'red')
     drawFilledCircle (width/2, height/2, width/2 - n - (5), 'blue')
-    n = n + 10
+    n = n + x
   }
 }
 drawConcentricCircles (10)
 
-/*
-const drawCheckerBoard = (n) => {
-  let x = width
-  let y = height
-  let w = x / n
-  let h = x / n
-  
-    while (x < width - n) {
-      drawRect (x + width / n, y / 2, w, h)
-      x = x + 1
-    }
-  
-
-}
-drawCheckerBoard (8)
-*/
