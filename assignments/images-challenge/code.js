@@ -70,5 +70,6 @@ const drawConcentricCircles = (n) => {
     
   }
 }
-drawConcentricCircles (5)
+drawConcentricCircles (50)
 
+const drawCheckerBoard = (n) =>
