@@ -68,7 +68,7 @@ const drawConcentricCircles = (n) => {
     drawCircle (width/2, height/2, width/2 - y, 'red')
     //drawFilledCircle (width/2, height/2, width/2 - n - Math.floor(x/2), 'blue')
     n = n + x
-    y = y + n
+    y = y + x
   }
 }
 drawConcentricCircles (50)
