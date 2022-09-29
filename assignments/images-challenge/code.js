@@ -70,5 +70,5 @@ const drawConcentricCircles = (n) => {
     
   }
 }
-drawConcentricCircles (2)
+drawConcentricCircles (5)
 
