@@ -72,7 +72,7 @@ const drawConcentricCircles = (n) => {
     y = y + z
   }
 }
-drawConcentricCircles (10)
+drawConcentricCircles (5)
 
 const drawCheckerBoard = (n) => {
 
