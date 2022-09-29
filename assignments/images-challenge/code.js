@@ -62,17 +62,17 @@ const pattern = (n) => {
 
 
 const drawConcentricCircles = (n) => {
-  let x = n
-  let y = width / n
-  let z = width / n
+  let x = n;
+  let y = width / n;
+  let z = width / n;
   while (n < width) {
-    drawFilledCircle (width/2, height/2, width/2 - y + z, 'red')
-    drawFilledCircle (width/2, height/2, width/2 - y + z - Math.floor(z/2), 'blue')
-    n = n + x
-    y = y + z
-  }
-}
-drawConcentricCircles (20)
+    drawFilledCircle (width/2, height/2, width/2 - y + z, 'red');
+    drawFilledCircle (width/2, height/2, width/2 - y + z - Math.floor(z/2), 'blue');
+    n = n + x;
+    y = y + z;
+  };
+};
+drawConcentricCircles (13);
 
 const drawCheckerBoard = (n) => {
 
