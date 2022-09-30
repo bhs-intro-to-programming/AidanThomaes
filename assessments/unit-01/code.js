@@ -25,10 +25,14 @@ const getsSpeedingTicket = (s, isGrouchy) => {
   isGrouchy = true
   
 }
-getsSpeedingTicket()
+
 const moreThanTwiceAsLong
 const aFartherThanB = (x,y,z) => {
   a = Math.abs(x-z)
   b = Math.abs(y-z)
-  Math.min ()
+  if (a > b) {
+    a = true
+  } else {
+    a = false
+  }
 }
