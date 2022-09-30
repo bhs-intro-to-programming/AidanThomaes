@@ -39,4 +39,8 @@ const aFartherThanB = (x,y,z) => {
 const firstHalf = (s) => s.substring(0,Math.floor(length/2))
 const secondHalf = (s) => s.substring (Math.floor(length/2), length)
 const upDown = (s) => s[0]+s.toUpperCase+s.substring(0,length)
-const
+
+
+const yesIfEven = (x) => {
+  
+}
