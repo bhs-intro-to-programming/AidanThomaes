@@ -9,7 +9,7 @@ const averageWeight = (w, n) => (w/n)
 const hypotenuse = (a, b) => (Math.sqrt(a ** 2 + b ** 2))
 const maxRadius = (w, h) => (Math.min (w, h)/2)
 const numCircles = (r,w) => (w / r)
-const offset = (w, f)
+
 const canSleepIn = (weekday, vacation) => {
   weekday = false
   vacation = true
