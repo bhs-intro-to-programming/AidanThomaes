@@ -9,6 +9,6 @@ const emit = (a, b, product) => {
 //const hypotenuse = (x,y) => (Math.sqrt(x ** 2 + y ** 2))
 const maxRadius = (x,y) => {
   
-  let y = height
+  
 maxRadius (Math.min(x, y)/2)
 }
