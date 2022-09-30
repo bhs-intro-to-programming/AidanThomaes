@@ -10,5 +10,5 @@ const emit = (a, b, product) => {
 const maxRadius = (x,y) => {
   let x = width
   let y = height
-return maxRadius (Math.min(x, y)/2)
+maxRadius (Math.min(x, y)/2)
 }
