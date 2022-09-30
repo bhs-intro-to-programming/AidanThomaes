@@ -5,7 +5,13 @@ const emit = (a, b, product) => {
 };
 
 // Write your code here ...
-const averageWeight = (x,y) => (x/y)
-const hypotenuse = (x,y) => (Math.sqrt(x ** 2 + y ** 2))
-const maxRadius = (x, y) => (Math.min (x, y)/2)
-
+const averageWeight = (w, n) => (w/n)
+const hypotenuse = (a, b) => (Math.sqrt(a ** 2 + b ** 2))
+const maxRadius = (w, h) => (Math.min (w, h)/2)
+const numCircles = (r,w) => (w / r)
+const offset = (w, f)
+const canSleepIn = (weekday, vacation) => {
+  weekday = false
+  vacation = true
+  return canSleepIn (!weekday || vacation)
+}
