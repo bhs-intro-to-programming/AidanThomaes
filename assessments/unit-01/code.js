@@ -8,7 +8,7 @@ const emit = (a, b, product) => {
 //const averageWeight = (x,y) => (x/y)
 //const hypotenuse = (x,y) => (Math.sqrt(x ** 2 + y ** 2))
 const maxRadius = (x,y) => {
-  let x = width
+  
   let y = height
 maxRadius (Math.min(x, y)/2)
 }
