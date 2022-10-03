@@ -23,4 +23,15 @@
  *
  *  clear()
  */
-l
+
+
+const drawCircleLine = (r) => {
+  let d = r * 2;
+  const numCircles = Math.floor(width / d);
+  for (let n = 0; n < numCircles; n++) {
+    const x = r + d * n;
+    drawFilledCircle (x, height/2, r, 'red');
+  };
+};
+drawCircleLine ();
+
