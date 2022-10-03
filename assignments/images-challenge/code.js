@@ -75,10 +75,12 @@ drawConcentricCircles ();
 
 const drawCheckerBoard = (n) => {
   let s = width / n
+  let y = s
   let x = n
   while (n < width) {
     drawRect (0 + s,0 * 2,s,s)
     n = n + x
+    s = s + y
   }
 
 }
