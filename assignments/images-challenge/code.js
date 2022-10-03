@@ -74,6 +74,7 @@ const drawConcentricCircles = (n) => {
 drawConcentricCircles ();
 
 const drawCheckerBoard = (n) => {
-
+  let s = width / n
+  drawRect (0,0,s,s)
 }
-drawCheckerBoard
+drawCheckerBoard (8);
