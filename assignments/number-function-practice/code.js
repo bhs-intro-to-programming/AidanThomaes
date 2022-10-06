@@ -11,4 +11,12 @@ const manhattan = (x1,y1,x2,y2) => (Math.abs(x1-x2)+Math.abs(y1-y2));
 const twoDDistance = (x1,y1,x2,y2) => (Math.sqrt(Math.abs(x1-x2)**2+Math.abs(y1-y2)**2))
 
 const perimeterOfSquare = (sideLength) => (4*sideLength)
-const perimeterOfRect = (width,height) => (2*(width+height))
+const perimeterOfRect = (w,h) => (2*(w+h))
+const aOS = (s) => 	(s ** 2)
+const aOR = (w,h) => (w*h)
+const 
+const
+const
+const
+const
+const
