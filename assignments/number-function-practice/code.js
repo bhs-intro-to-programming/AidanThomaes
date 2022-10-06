@@ -12,9 +12,17 @@ const twoDDistance = (x1,y1,x2,y2) => (Math.sqrt(Math.abs(x1-x2)**2+Math.abs(y1-
 
 const perimeterOfSquare = (sideLength) => (4*sideLength)
 const perimeterOfRect = (w,h) => (2*(w+h))
-const aOS = (s) => 	(s ** 2)
-const aOR = (w,h) => (w*h)
-const 
+const aSqu = (s) => 	(s ** 2)
+const aRect = (w,h) => (w*h)
+const aTri = (b,h) => ((b*h)/2)
+const aTrap = (b1,b2,h) => (((b1+b2)/2)*h)
+const aCirc = (r) => (Math.PI * r**2)
+const cirCirc = (r) => (2*Math.PI*r)
+const curSACyl = (r,h) => ((2*Math.PI*r)*h)
+const totSACyl = (r,h) => (2*(Math.PI*r**2)+(2*Math.PI*r)*h)
+const volCyl = (r,h) => (Math.PI*r**2*h)
+const slantSACone = (r,s) => (Math.PI*r*s)
+const totSACone = (r,s) => (Math.PI*r*s+Math.PI * r**2)
 const
 const
 const
