@@ -131,5 +131,12 @@
     "answer": "4*Math.PI*r**2",
     "correct": true,
     "timestamp": 1665094642165
+  },
+  {
+    "name": "Volume of sphere",
+    "canonical": "4/3 * Math.PI * r ** 3",
+    "answer": "(4/3)*Math.PI*r**3",
+    "correct": true,
+    "timestamp": 1665094701634
   }
 ]
