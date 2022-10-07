@@ -29,3 +29,7 @@ const payWithOvertime = (numHours,hourlyPay,overtimePay) => {
 const firstClassPostage = (letterWeight) => {
   return (60 + (Math.ceil(letterWeight)-1)*24)
 }
+
+const weightOnJupiter = (personsWeight) => {
+  return (personsWeight*(JUPITER_GRAVITY/EARTH_GRAVITY))
+}
