@@ -25,3 +25,7 @@ const valueOfJewels = (numDiamonds,numEmeralds,valueDiamond,valueEmerald) => {
 const payWithOvertime = (numHours,hourlyPay,overtimePay) => {
   return ((hourlyPay*8)+(overtimePay*(numHours-8)))
 }
+
+const firstClassPostage = (letterWeight) => {
+  (60 + (Math.ceil(letterWeight-1)*24))
+}
