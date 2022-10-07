@@ -16,7 +16,9 @@ const volumeOfCube = (s) => (s**3)
 
 const populationGrowth = (popSize,growthRate) => (popSize*growthRate)
 
-const earnedRunAverage = (earnedRuns,numInnings) => ((earnedRuns/numInnings)*9)
+const earnedRunAverage = (earnedRuns,numInnings) => {
+  return ((earnedRuns/numInnings)*9)
+}
 
 const valueOfJewels = (numDiamonds,numEmeralds,valueDiamond,valueEmerald) => {
   return ((numDiamonds*valueDiamond)+(numEmeralds*valueEmerald))
@@ -32,4 +34,8 @@ const firstClassPostage = (letterWeight) => {
 
 const weightOnJupiter = (personsWeight) => {
   return (personsWeight*(JUPITER_GRAVITY/EARTH_GRAVITY))
+}
+
+const gravity = (mass1,mass2,distance) => {
+  return (((mass1*mass2)/distance**2)*G)
 }
