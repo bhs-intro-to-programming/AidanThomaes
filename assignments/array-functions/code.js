@@ -1,6 +1,5 @@
 const xs = [10,10,10,10];
-const x = xs[xs.length-1]
-while (x<xs[xs.length]+1) {
+
+for (let x = xs.legth-1; x < xs.length; x++) {
   xs[x]
-  x=x+1
 }
