@@ -4,7 +4,7 @@ const countTens = (numbers) =>{
     if (numbers[x]=10) {
       return i+1
     } else {
-      return i
+      return 0
     }
   }
 } 
