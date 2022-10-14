@@ -1,9 +1,8 @@
-const countTens = [10,10,10,10];
+const countTens = (numbers) =>{
 
-for (let x = s.length-1; x > 0;  x = x-1) {
-if (countTens[x]=10) {
-
+  for (let x = 0; x < numbers.length; x++ ) {  
+    if (numbers[x]=10) {
+      return true
+    }
+  }
 }
-
-}
-  
