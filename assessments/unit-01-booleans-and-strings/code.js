@@ -17,3 +17,7 @@ const fireAlarm = (alarmPulled,smokeDetected,plannedDrill) => {
 const canBePresident = (age35Up,naturalCitizen,livedInUS14Years) => {
   return (age35Up&&naturalCitizen&&livedInUS14Years)
 }
+
+const willSeeTweet = (followTweeter,followRetweeter,blockedTweeter) => {
+  return ((followTweeter||followRetweeter)&&!blockedTweeter)
+}
