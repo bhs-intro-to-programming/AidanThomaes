@@ -22,9 +22,9 @@ const willSeeTweet = (followTweeter,followRetweeter,blockedTweeter) => {
   return ((followTweeter||followRetweeter)&&!blockedTweeter)
 }
 
-const evenGreaterThanZero = (x) => {
-  if (x>0) {
-    if (x%2 === 0) {
+const evenGreaterThanZero = (number) => {
+  if (number>0) {
+    if (number%2 === 0) {
       return true
     } else {
       return false
@@ -34,6 +34,16 @@ const evenGreaterThanZero = (x) => {
   }
 }
 
-const isLeapYear = (x) => {
-  
+const isLeapYear = (year) => {
+  if (year%4===0) {
+    if (year%100===0) {
+      if (year%400===0){
+        return true
+      }
+    } else {
+      return false
+    }
+  } else {
+    return true
+  }
 }
