@@ -55,3 +55,7 @@ const firstAndLast = (s) => {
 const swapFrontAndBack = (s) => {
   return s.substring(s.length/2,s.length)+s.substring(0,s.length/2)
 }
+
+const simplePigLatin = (s) => {
+  return s.substring(0,s.length) + s.search[/aeiou/] + 'ay'
+}
