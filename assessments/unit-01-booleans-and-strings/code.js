@@ -23,13 +23,13 @@ const willSeeTweet = (followTweeter,followRetweeter,blockedTweeter) => {
 }
 
 const evenGreaterThanZero = (x) => {
-  
-}
-
-const isLeapYear = (x) => {
   if (x>0) {
-    if x%2 === 0 {
+    if (x%2 === 0) {
       true
     }
   }
+}
+
+const isLeapYear = (x) => {
+  
 }
