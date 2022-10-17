@@ -57,5 +57,5 @@ const swapFrontAndBack = (s) => {
 }
 
 const simplePigLatin = (s) => {
-  return s.substring(0,s.length) + s.search[/aeiou/] + 'ay'
+  return s.substring(s.search[/aeiou/],s.length) + s.search[/aeiou/] + 'ay'
 }
