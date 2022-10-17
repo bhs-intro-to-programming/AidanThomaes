@@ -21,3 +21,15 @@ const canBePresident = (age35Up,naturalCitizen,livedInUS14Years) => {
 const willSeeTweet = (followTweeter,followRetweeter,blockedTweeter) => {
   return ((followTweeter||followRetweeter)&&!blockedTweeter)
 }
+
+const evenGreaterThanZero = (x) => {
+  
+}
+
+const isLeapYear = (x) => {
+  if (x>0) {
+    if x%2 === 0 {
+      true
+    }
+  }
+}
