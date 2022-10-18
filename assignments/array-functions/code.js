@@ -52,5 +52,7 @@ const pyramid = numbers => {
     for (let x = 0; x < numbers.length; x++) {
 
     }
-  } return []
+  } else {
+    return []
+  }
 }
