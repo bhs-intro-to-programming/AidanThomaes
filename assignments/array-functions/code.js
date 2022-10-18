@@ -46,3 +46,7 @@ const anyOverOneHundred = (numbers) => {
     return false
   }
 }
+
+const pyramid = numbers => {
+  if (numbers.length>0)
+}
