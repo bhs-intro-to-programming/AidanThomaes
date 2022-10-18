@@ -1,10 +1,14 @@
 
 const countTens = (numbers) =>{
-  for (let x = 0; x < numbers.length; x++ ) {  
-    if (numbers[x]===10) {
-      return 1
-    } else {
-      return 0
+  if (numbers.length>-1) {
+    for (let x = 0; x < numbers.length; x++ ) {  
+      if (numbers[x]===10) {
+        return 1
+      } else {
+        return 0
+      }
     }
-  }
+  } else {
+    return 0
+  } 
 } 
