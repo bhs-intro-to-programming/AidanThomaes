@@ -30,6 +30,6 @@ const evens = (numbers) => {
       }
     }
   } else {
-    return 0
+    return []
   }
 }
