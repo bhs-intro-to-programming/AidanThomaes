@@ -50,7 +50,7 @@ const anyOverOneHundred = (numbers) => {
 const pyramid = numbers => {
   if (numbers.length>0) {
     for (let x = 0; x < numbers.length; x++) {
-      
+
     }
-  } return 0
+  } return []
 }
