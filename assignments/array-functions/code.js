@@ -14,7 +14,7 @@ const countTens = (numbers) => {
 const sum = (numbers) => {
   if (numbers.length > 0){
     for (let x = 0; x < numbers.length; x++) {
-      return numbers.length - x
+      return numbers[numbers.length - x]
     }
   } else {
     return 0
