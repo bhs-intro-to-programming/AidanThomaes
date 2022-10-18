@@ -9,5 +9,5 @@ const countTens = (numbers) =>{
   }
 } 
 const s = (s) => {
-  s.substring(s.length)
+  s.substring(0,s.length)
 }
