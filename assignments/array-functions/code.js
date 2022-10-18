@@ -14,7 +14,7 @@ const sum = (numbers) => {
   let add = 0
   if (numbers.length > 0){
     for (let x = 0; x < numbers.length; x++) {
-      add = add + numbers[x]
+      return add = add + numbers[x]
     }
   } else {
     return 0
