@@ -8,6 +8,3 @@ const countTens = (numbers) =>{
     }
   }
 } 
-const s = (s) => {
-  s.substring(0,s.length)
-}
