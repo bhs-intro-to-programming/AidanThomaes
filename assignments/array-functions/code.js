@@ -26,10 +26,23 @@ const evens = (numbers) => {
   if (numbers.length > 0) {
     for (let x = 0; x < numbers.length; x++) {
       if (numbers[x]%2===0) {
-        return [numbers[x]]
+        
       }
     }
   } else {
     return []
+  }
+}
+
+const anyOverOneHundred = (numbers) => {
+  if (numbers.length > 0) {
+    for (let x = 0; x < numbers.length; x++) {
+      if (numbers[x]>100) {
+        return true
+      }
+    }
+    return false
+  } else {
+    return false
   }
 }
