@@ -1,23 +1,25 @@
 const countTens = (numbers) => {
-  let numTens = 0
+  let numTens = 0;
   if (numbers.length > 0) {
     for (let x = 0; x < numbers.length; x++ ) {  
       if (numbers[x]===10) {
-       numTens = numTens + 1
-      } 
-    }
+       numTens = numTens + 1;
+      } else {
+        return 0
+      }
+    };
   } else {
     return 0
-  } 
-} 
+  }; 
+} ;
 
 const sum = (numbers) => {
-  let add = 0
+  let add = 0;
   if (numbers.length > 0){
     for (let x = 0; x < numbers.length; x++) {
       add = add + numbers[x]
-    }
+    };
   } else {
     return 0
-  }
-}
+  };
+};
