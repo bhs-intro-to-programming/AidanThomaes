@@ -10,11 +10,12 @@ const countTens = (numbers) => {
     return 0
   }; 
 } ;
-let add = 0;
+
 const sum = (numbers) => {
   
   if (numbers.length > 0){
     for (let x = 0; x < numbers.length; x++) {
+      let add = 0;
       add = add + numbers[x]
     };
   } else {
@@ -50,7 +51,7 @@ const anyOverOneHundred = (numbers) => {
 const pyramid = (numbers) => {
   if (numbers.length>0) {
     for (let x = 0; x < numbers.length; x++) {
-
+      
     }
   } else {
     return []
