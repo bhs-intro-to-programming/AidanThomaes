@@ -17,9 +17,13 @@ const sum = (numbers) => {
 };
 
 const evens = (numbers) => {
+  let output = [];
   for (let x = 0; x < numbers.length; x++) {
-    return 
+    if (numbers[x]%2===0) {
+      output.push(numbers[x])
+    }
   }
+  return output
 }
 
 const anyOverOneHundred = (numbers) => {
@@ -36,11 +40,9 @@ const anyOverOneHundred = (numbers) => {
 }
 
 const pyramid = (numbers) => {
-  if (numbers.length>0) {
-    for (let x = 0; x < numbers.length; x++) {
+  
+  for (let x = 0; x < numbers.length; x++) {
       
-    }
-  } else {
-    return []
   }
+  
 }
