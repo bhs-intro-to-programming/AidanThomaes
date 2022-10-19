@@ -9,27 +9,40 @@ const countTens = (numbers) => {
 } ;
 
 const sum = (numbers) => {
-  let add = 0
-  for (let x = 0; x < numbers.length; x++) {
-    add = add + numbers[x]
+  
+  if (numbers.length > 0){
+    for (let x = 0; x < numbers.length; x++) {
+      let add = 0;
+      add = add + numbers[x]
+    };
+  } else {
+    return 0
   };
-  return add
 };
 
 const evens = (numbers) => {
-  for (let x = 0; x < numbers.length; x++) {
-    return 
+  if (numbers.length > 0) {
+    for (let x = 0; x < numbers.length; x++) {
+      if (numbers[x]%2===0) {
+        
+      }
+    }
+  } else {
+    return []
   }
 }
 
 const anyOverOneHundred = (numbers) => {
-
+  if (numbers.length > 0) {
     for (let x = 0; x < numbers.length; x++) {
       if (numbers[x]>100) {
         return true
       }
     }
-  
+    return false
+  } else {
+    return false
+  }
 }
 
 const pyramid = (numbers) => {
