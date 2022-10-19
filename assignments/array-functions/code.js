@@ -21,7 +21,7 @@ const evens = (numbers) => {
     return 
   }
 }
-/*
+
 const anyOverOneHundred = (numbers) => {
   if (numbers.length > 0) {
     for (let x = 0; x < numbers.length; x++) {
@@ -32,13 +32,6 @@ const anyOverOneHundred = (numbers) => {
     return false
   } else {
     return false
-  }
-}
-*/
-
-const anyOverOneHundred =(numbers) => {
-  for (let x = 0; x< numbers.length; x++) {
-    return numbers.length > 0 && numbers[x]>100
   }
 }
 
