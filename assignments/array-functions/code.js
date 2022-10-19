@@ -18,20 +18,15 @@ const sum = (numbers) => {
 
 const evens = (numbers) => {
   for (let x = 0; x < numbers.length; x++) {
-    return 
+    return []
   }
 }
 
 const anyOverOneHundred = (numbers) => {
-  if (numbers.length > 0) {
-    for (let x = 0; x < numbers.length; x++) {
-      if (numbers[x]>100) {
-        return true
-      }
+  for (let x = 0; x < numbers.length; x++) {
+    if (numbers[x]>100) {
+      return true
     }
-    return false
-  } else {
-    return false
   }
 }
 
