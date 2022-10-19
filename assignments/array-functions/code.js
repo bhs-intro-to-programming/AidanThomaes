@@ -23,24 +23,12 @@ const evens = (numbers) => {
 }
 
 const anyOverOneHundred = (numbers) => {
-  if (numbers.length > 0) {
-    for (let x = 0; x < numbers.length; x++) {
-      if (numbers[x]>100) {
-        return true
-      }
-    }
-    return false
-  } else {
-    return false
-  }
+  for (let x = 0; x < numbers.length; x++) {
+    return (numbers[x]>100) && number.length > 0
 }
 
 const pyramid = (numbers) => {
-  if (numbers.length>0) {
-    for (let x = 0; x < numbers.length; x++) {
-      
-    }
-  } else {
-    return []
+  for (let x = 0; x < numbers.length; x++) {
+    
   }
 }
