@@ -34,16 +34,14 @@ const anyOverOneHundred = (numbers) => {
       }
     }
     return false
-  } else {
-    return false
-  }
+  } 
 }
 
 const pyramid = (n) => {
   let list = [];
   for (let i = 0; i < n.length; i++) {
     for (let x = 0; x < i; x++) {
-      list.pushn([i])*x
+      list.pushn([i])
     }  
   }
   return list
