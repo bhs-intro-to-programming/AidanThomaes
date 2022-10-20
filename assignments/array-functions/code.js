@@ -27,23 +27,19 @@ const evens = (numbers) => {
 }
 
 const anyOverOneHundred = (numbers) => {
-  if (numbers.length > 0) {
-    for (let i = 0; i < numbers.length; i++) {
-      if (numbers[i]>100) {
+  for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i]>100) {
         return true
       }
     }
-    return false
-  } else {
-    return false
-  }
+  return false
 }
 
 const pyramid = (n) => {
   let list = [];
   for (let i = 0; i < n.length; i++) {
     for (let x = 0; x < i; x++) {
-      list.push(n[i]*2)
+      list.push(n[i])
     }  
   }
   return list
