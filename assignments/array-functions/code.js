@@ -41,8 +41,8 @@ const anyOverOneHundred = (numbers) => {
 
 const pyramid = (numbers) => {
   let list = [];
-  for (let x = 0; x < numbers.length; x++) {
-    for (let y = 0; y < x; y++) {
+  for (let i = 0; i < numbers.length; i++) {
+    for (let x = 0; x < i; x++) {
       list.push(numbers(x))
     }  
   }
