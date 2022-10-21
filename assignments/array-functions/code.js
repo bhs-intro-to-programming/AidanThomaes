@@ -40,7 +40,9 @@ const pyramid = (n) => {
   for (let i = 0; i < 2; i++) {
     for (let x = 0; x < i; x++) {
       if (x > 0){
-        (list.push(i,x))
+        list.push(i,x)
+      } else {
+
       }
     }
   }
