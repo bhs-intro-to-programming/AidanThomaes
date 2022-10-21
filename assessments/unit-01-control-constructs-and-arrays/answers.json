@@ -19,5 +19,5 @@
   "true",
   "The sum of the elements of the array.",
   "Changes all the words in the words array to uppercase.",
-  "The for loop says that i is equal. while it is running it will output all of the words in reverse order because pushing xs.length-i will output the last word first, moving towards the beginning.  Once i =  xs.length the loop will end and the function will return the new array, result."
+  "The for loop says that i is equal to 0, that while i is less than the length of the array it will keep looping, and that i increases every loop. While the loop is running it will output all of the words in reverse order because pushing xs.length-i will output the last word first, moving towards the beginning.  Once i =  xs.length the loop will end and the function will return the new array, result."
 ]
