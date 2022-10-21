@@ -42,7 +42,7 @@ const pyramid = (n) => {
       if (x > 0){
         list.push(i,x)
       } else {
-
+        list.push(i)
       }
     }
   }
