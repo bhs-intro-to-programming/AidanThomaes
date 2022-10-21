@@ -37,12 +37,11 @@ const anyOverOneHundred = (numbers) => {
 
 const pyramid = (n) => {
   let list = [];
-  for (let i = 0; i < 0+1; i++) {
+  for (let i = 0; i < 0; i++) {
     for (let x = 0; x < i; x++) {
       if (x > 0){
         list.push(i,x)
       } 
-      }
     }
   }
   return list
