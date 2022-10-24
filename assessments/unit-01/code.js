@@ -11,18 +11,13 @@ const maxRadius = (w, h) => (Math.min (w, h)/2)
 const numCircles = (r,w) => (w / r)
 
 const canSleepIn = (isWeekday, onVacation) => {
-  isWeekday = false
-  onVacation = true
-  return canSleepIn (!isWeekday || onVacation)
+  return !isWeekday || onVacation
 }
 const canGoToProm = (isSenior, isInvited, isExcluded) => {
-  isSenior = true
-  isInvited = true
-  isExcluded = false
-  return canGoToProm (isSenior || isInvited &&! isExcluded)
+  return (isSenior || isInvited) &&! isExcluded
 }
 const getsSpeedingTicket = (s, isGrouchy) => {
-  isGrouchy = true
+  
   
 }
 
@@ -31,9 +26,7 @@ const aFartherThanB = (x,y,z) => {
   a = Math.abs(x-z)
   b = Math.abs(y-z)
   if (a > b) {
-    a = true
-  } else {
-    a = false
+    return true
   }
 }
 const firstHalf = (s) => s.substring(0,Math.floor(length/2))
