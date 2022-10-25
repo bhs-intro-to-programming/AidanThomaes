@@ -30,5 +30,7 @@ let ticTacToe = [
   ['','','']
 ]
 
-const detect
+const detect = () => {
+  
+}
 
