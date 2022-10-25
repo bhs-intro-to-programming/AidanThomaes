@@ -7,7 +7,7 @@
 
 drawLine (width/3,0,width/3,height)
 drawLine (width/1.5,0,width/1.5,height)
-drawLine (0,height/3,width,height/1.5)
+drawLine (0,height/1.5,width,height/1.5)
 
 registerOnclick((x, y) => {
   drawText('X', x, y, 'black', Math.min(width, height) * 0.3);
