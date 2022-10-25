@@ -26,11 +26,14 @@ const turn = () => {
 
 let ticTacToe = [
   ['','',''],
-  [],
-  []
+  ['','',''],
+  ['','','']
 ]
 
 const detect = () => {
+
+
+ticTacToe.push()
 
 }
 
