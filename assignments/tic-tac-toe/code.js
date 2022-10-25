@@ -11,7 +11,7 @@ drawLine (0,height/3,width,height/3)
 drawLine (0,height/1.5,width,height/1.5)
 
 
-const tic = () =>{
+const tic = () => {
   for (let x = 0; x < 10; x++){
     if (x % 2 === 0) {
       registerOnclick((x, y) => {
