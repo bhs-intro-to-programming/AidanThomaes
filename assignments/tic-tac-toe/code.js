@@ -11,16 +11,17 @@ drawLine (0,height/3,width,height/3)
 drawLine (0,height/1.5,width,height/1.5)
 
 
-
+const tic = () =>{
   for (let x = 0; x < 10; x++){
     if (x % 2 === 0) {
       registerOnclick((x, y) => {
-        drawText('O', x, y, 'black', Math.min(width, height) * 0.3);
+        drawText('X', x, y, 'black', Math.min(width, height) * 0.3);
       });
     } else {
       registerOnclick((x, y) => {
-        drawText('X', x, y, 'black', Math.min(width, height) * 0.3);
+        drawText('O', x, y, 'black', Math.min(width, height) * 0.3);
       });
     }
   }    
+}
 
