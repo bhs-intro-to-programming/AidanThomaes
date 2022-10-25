@@ -5,7 +5,7 @@
 // is called an anonymous function. We'll discuss this in more detail in a few
 // weeks but for now you can just adapt this code
 
-drawLine (0,100,100,0)
+drawLine (width/3,0,width/3,height)
 
 registerOnclick((x, y) => {
   drawText('X', x, y, 'black', Math.min(width, height) * 0.3);
