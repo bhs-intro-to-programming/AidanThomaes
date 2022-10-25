@@ -3,7 +3,9 @@
 // how the argument here looks like what we normally put on the righthand side
 // of the equals sign in our normal `const foo = ...` function definition. This
 // is called an anonymous function. We'll discuss this in more detail in a few
-// weeks but for now you can just adapt this code.
+// weeks but for now you can just adapt this code
+
+drawline (width/3, 0, width/3, height)
 
 registerOnclick((x, y) => {
   drawText('X', x, y, 'black', Math.min(width, height) * 0.3);
