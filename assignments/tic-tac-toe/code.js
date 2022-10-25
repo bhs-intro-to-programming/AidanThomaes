@@ -5,10 +5,9 @@
 // is called an anonymous function. We'll discuss this in more detail in a few
 // weeks but for now you can just adapt this code
 
-const drawLine = (x1,y1,x2,y2)
-
-drawLine (10,100,100,10)
+drawLine (0,100,100,0)
 
 registerOnclick((x, y) => {
   drawText('X', x, y, 'black', Math.min(width, height) * 0.3);
 });
+
