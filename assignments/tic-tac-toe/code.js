@@ -6,7 +6,7 @@
 // weeks but for now you can just adapt this code
 
 drawLine (width/3,0,width/3,height)
-drawLine (width/2,0,width/2,height)
+drawLine (width/1.5,0,width/1.5,height)
 
 registerOnclick((x, y) => {
   drawText('X', x, y, 'black', Math.min(width, height) * 0.3);
