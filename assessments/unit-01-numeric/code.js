@@ -7,3 +7,35 @@ const G = 6.6743e-11;
 // syntactically correct function skeleton, more credit for a skeleton with a
 // reasonable argument list, yet more credit for a working function, and full
 // credit for a clear and simple working function.
+
+const itemsLeftOver = (numPeople,numItems) => (numItems/numPeople)
+
+const areaOfCircle = (r) => (Math.PI*r**2)
+
+const volumeOfCube = (s) => (s**3)
+
+const populationGrowth = (popSize,growthRate) => (popSize*growthRate)
+
+const earnedRunAverage = (earnedRuns,numInnings) => {
+  return ((earnedRuns/numInnings)*9)
+}
+
+const valueOfJewels = (numDiamonds,numEmeralds,valueDiamond,valueEmerald) => {
+  return ((numDiamonds*valueDiamond)+(numEmeralds*valueEmerald))
+}
+
+const payWithOvertime = (numHours,hourlyPay,overtimePay) => {
+  return ((hourlyPay*8)+(overtimePay*(numHours-8)))
+}
+
+const firstClassPostage = (letterWeight) => {
+  return (60 + (Math.ceil(letterWeight)-1)*24)
+}
+
+const weightOnJupiter = (personsWeight) => {
+  return (personsWeight*(JUPITER_GRAVITY/EARTH_GRAVITY))
+}
+
+const gravity = (mass1,mass2,distance) => {
+  return (((mass1*mass2)/distance**2)*G)
+}
