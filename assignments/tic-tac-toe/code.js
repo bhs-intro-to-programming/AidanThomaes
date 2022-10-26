@@ -10,12 +10,14 @@ drawLine(width / 1.5, 0, width / 1.5, height)
 drawLine(0, height / 3, width, height / 3)
 drawLine(0, height / 1.5, width, height / 1.5)
 
+let player = 'x'; 
+
 registerOnclick((x, y) => {
   turn(x, y)
 });
 
 const turn = (x, y) => {
-    drawText('X', x, y, 'black', Math.min(width, height) * 0.3);
+    drawText(player, x, y, 'black', Math.min(width, height) * 0.3);
 
   for (let n = 0; n < 10; n++) {
     if (n % 2 === 0) {
