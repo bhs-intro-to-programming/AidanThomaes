@@ -10,15 +10,17 @@ drawLine(width / 1.5, 0, width / 1.5, height)
 drawLine(0, height / 3, width, height / 3)
 drawLine(0, height / 1.5, width, height / 1.5)
 
-let player = 'x';
+let player1 = 'x';
+let player2 = 'O';
 
 registerOnclick((x, y) => {
   turn(x, y)
 });
 
 const turn = (x, y) => {
-  drawText(player, x, y, 'black', Math.min(width, height) * 0.3);
-  drawText('O', x, y, 'black', Math.min(width, height) * 0.3);
+  drawText(player1, x, y, 'black', Math.min(width, height) * 0.3);
+  
+    drawText(player2, x, y, 'black', Math.min(width, height) * 0.3);
 
 
 
