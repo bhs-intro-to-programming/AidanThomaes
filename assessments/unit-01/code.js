@@ -25,7 +25,7 @@ const getsSpeedingTicket = (s, isGrouchy) => {
 const aFartherThanB = (x,y,z) => {
   a = Math.abs(x-z)
   b = Math.abs(y-z)
-  return a > b
+  return (a>b)
 }
 const firstHalf = (s) => s.substring(0,Math.floor(length/2))
 const secondHalf = (s) => s.substring (Math.floor(length/2), length)
