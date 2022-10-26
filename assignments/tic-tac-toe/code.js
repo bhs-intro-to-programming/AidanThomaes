@@ -5,23 +5,26 @@
 // is called an anonymous function. We'll discuss this in more detail in a few
 // weeks but for now you can just adapt this code
 
-drawLine (width/3,0,width/3,height)
-drawLine (width/1.5,0,width/1.5,height)
-drawLine (0,height/3,width,height/3)
-drawLine (0,height/1.5,width,height/1.5)
+drawLine(width / 3, 0, width / 3, height)
+drawLine(width / 1.5, 0, width / 1.5, height)
+drawLine(0, height / 3, width, height / 3)
+drawLine(0, height / 1.5, width, height / 1.5)
 
-const turn = () => {
+registerOnclick((x, y) => {
+  turn(x, y)
+});
+
+const turn = (x, y) => {
+    drawText('X', x, y, 'black', Math.min(width, height) * 0.3);
+
   for (let n = 0; n < 10; n++) {
     if (n % 2 === 0) {
-      registerOnclick((x, y) => {
-        drawText('X', x, y, 'black', Math.min(width, height) * 0.3);
-      });
+
     } else {
       registerOnclick((x, y) => {
         drawText('O', x, y, 'black', Math.min(width, height) * 0.3);
       });
     }
-  } 
+  }
 }
 
-turn(4)
