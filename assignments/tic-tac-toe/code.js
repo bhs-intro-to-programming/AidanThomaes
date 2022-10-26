@@ -23,4 +23,4 @@ const turn = () => {
     }
   } 
 }
-
+turn(0)
