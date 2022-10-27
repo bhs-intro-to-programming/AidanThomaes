@@ -15,6 +15,5 @@ const swapFrontAndBack = (s) => {
 }
 
 const simplePigLatin = (s,firstVowel) => {
-  let firstVowel = s.search(/[aeiou]/)
   return s.substring(n) + s.substring(0,n) + 'ay'
 }
