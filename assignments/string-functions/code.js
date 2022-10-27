@@ -29,3 +29,7 @@ const sameIgnoringCase = (s1,s2) => {
 const firstHalf = (s) => {
   return s.substring(0,Math.floor(s.length/2))
 }
+
+const secondHalf = (s) => {
+  return s.substring(Math.round(s.length/2))
+}
