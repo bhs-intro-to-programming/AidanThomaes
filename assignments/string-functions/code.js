@@ -17,3 +17,7 @@ const swapFrontAndBack = (s) => {
 const simplePigLatin = (s,firstVowel) => {
   return s.substring(firstVowel) + s.substring(0,firstVowel) + 'ay'
 }
+
+const isAllUpperCase = (s) => {
+  return s === s.toUpperCase()
+}
