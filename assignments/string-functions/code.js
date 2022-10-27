@@ -3,5 +3,9 @@ const findFnord = (s) => {
 }
 
 const stringContains = (s1,s2) => {
-  return s1.indexOf(s2) === s2.length
+  return
+}
+
+const firstAndLast = (s) => {
+  return s.substring(0,1) + s.substring(s.length-2,s.length-1)
 }
