@@ -31,5 +31,5 @@ const firstHalf = (s) => {
 }
 
 const secondHalf = (s) => {
-  return s.substring(Math.round(s.length/2))
+  return s.substring((s.length/2))
 }
