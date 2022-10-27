@@ -27,5 +27,5 @@ const sameIgnoringCase = (s1,s2) => {
 }
 
 const firstHalf = (s) => {
-  return s.substring(0,Math.floor(length/2))
+  return s.substring(0,Math.floor(s.length/2))
 }
