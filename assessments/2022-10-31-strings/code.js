@@ -28,9 +28,9 @@ const firstFewEveryOther = (s) => {
 } 
 
 const upDownLastCharacter = (s) => {
-  return s.substring(s.length-1,s.length).toUpperCase() + s.substring(s.length-1,s.length).toLowerCase() 
+  return s.substring(s.length-1).toUpperCase() + s.substring(s.length-1).toLowerCase() 
 }
 
 const firstAndLast = (s) => {
-  return s[0] + s[length-1]
+  return s[0] + s[s.length-1]
 }
