@@ -28,5 +28,5 @@ const firstFewEveryOther = (s) => {
 } 
 
 const upDownLastCharacter = (s) => {
-  return s[length]
+  return s.substring 
 }
