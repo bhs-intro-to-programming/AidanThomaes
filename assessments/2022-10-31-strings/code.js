@@ -76,3 +76,7 @@ const firstName = (s) => {
 const lastName = (s) => {
   return s.substring(s.indexOf(' '))
 }
+
+const initials = (s) => {
+  return s[0] + s[s.indexOf(' ')+1]
+}
