@@ -18,3 +18,13 @@ const firstHalf = (s) => {
 const secondHalf = (s) => {
   return s.substring(s.length/2)
 }
+
+const upDown = (s) => {
+  return s.toUpperCase() + s.toLowerCase()
+}
+
+const firstFewEveryOther = (s) => {
+  return s[0] + s[2] + s[4]
+} 
+
+const 
