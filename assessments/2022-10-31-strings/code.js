@@ -52,3 +52,9 @@ const randomCharacterUpDown = (s) => {
   let random = (s[rand(s.length)])
   return random.toUpperCase() + random.toLowerCase()
 }
+
+const isAllUpperCase = (s) => {
+  if (s === s.toUpperCase) {
+    return true
+  }
+}
