@@ -44,5 +44,5 @@ const simplePigLatin = (s) => {
 }
 
 const randomCharacter = (s) => {
-  return s[rand]
+  return s[s.rand]
 }
