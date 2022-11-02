@@ -36,5 +36,12 @@ const checkRow = (y) => {
   };
 };
 
-
-
+const checkColumn = (x) => {
+  if (y < width / 3) {
+    return 1 ;
+  } else if (y < width / 1.5) {
+    return 2;
+  } else {
+    return 3;
+  };
+}
