@@ -35,7 +35,5 @@ const checkRow = (y) => {
     return 3;
   };
 };
-const heights = (y) => {
-  return height + y
-}
+
 
