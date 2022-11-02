@@ -15,6 +15,7 @@ let player2 = 'O';
 
 registerOnclick((x, y) => {
   turn(x, y)
+  checkRow(y)
 });
 
 const turn = (x, y) => {
@@ -25,4 +26,14 @@ const turn = (x, y) => {
 
 }
 
-const board = (['','',''])
+const checkRow = (y) => {
+  if (y < height / 1.5) {
+    return 1 ;
+  } else if (height / 1.5 < y < height / 3) {
+    return 2;
+  } else (height / 3 < y < height) {
+    return 3;
+  };
+};
+
+
