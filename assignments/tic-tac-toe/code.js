@@ -37,7 +37,7 @@ const checkRow = (y) => {
 };
 
 const why = (y) => {
-  if (height /3 < y < height / 1.5) {
+  if (y < height / 1.5) {
     return 1
   } else {
     return 2
