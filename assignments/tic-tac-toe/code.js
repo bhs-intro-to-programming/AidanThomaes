@@ -31,9 +31,9 @@ const checkRow = (y) => {
     return 1 ;
   } else if (height / 1.5 < y < height / 3) {
     return 2;
-  } else (height / 3 < y < height) {
-  }
-
+  } else {
+    return 3;
+  };
 };
 
 
