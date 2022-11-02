@@ -27,6 +27,8 @@ const turn = (x, y) => {
 
 }
 
+const board = (['', '', ''], ['', '', ''], ['', '', ''])
+
 const checkRow = (y) => {
   if (y < height / 3) {
     return 1;
@@ -48,6 +50,6 @@ const checkColumn = (x) => {
 }
 
 const filllBoard = (board, checkRow, checkColumn) {
-  board.push(checkRow,checkColumn [turn])
-  return board
-}
+  board.push(checkRow,checkColumn [turn]);
+  return board;
+};
