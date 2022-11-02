@@ -16,19 +16,20 @@ let player2 = 'O';
 registerOnclick((x, y) => {
   turn(x, y)
   checkRow(y)
+  checkColumn(x)
 });
 
 const turn = (x, y) => {
 
   drawText(player1, x, y, 'black', Math.min(width, height) * 0.3);
-  
+
   drawText(player2, x, y, 'black', Math.min(width, height) * 0.3);
 
 }
 
 const checkRow = (y) => {
   if (y < height / 3) {
-    return 1 ;
+    return 1;
   } else if (y < height / 1.5) {
     return 2;
   } else {
@@ -38,10 +39,14 @@ const checkRow = (y) => {
 
 const checkColumn = (x) => {
   if (x < width / 3) {
-    return 1 ;
+    return 1;
   } else if (x < width / 1.5) {
     return 2;
   } else {
     return 3;
   };
+}
+
+const filllBoard = (board, checkRow, checkColumn) {
+  board.push(checkRow,checkColumn [turn])
 }
