@@ -49,4 +49,5 @@ const checkColumn = (x) => {
 
 const filllBoard = (board, checkRow, checkColumn) {
   board.push(checkRow,checkColumn [turn])
+  return board
 }
