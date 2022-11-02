@@ -41,6 +41,8 @@ const pyramid = (n) => {
     for (let y = 0; y < x; y++) {
       if (y < 0) {
       list.push(x,y)
+      } else {
+        list.push(x)
       }
     }
   }
