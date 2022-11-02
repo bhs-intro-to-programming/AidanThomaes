@@ -29,17 +29,12 @@ const turn = (x, y) => {
 const checkRow = (y) => {
   if (y < height / 3) {
     return 1 ;
-  } else if (height / 3 < y < height / 1.5) {
+  } else if (y < height / 1.5) {
     return 2;
   } else {
     return 3;
   };
 };
 
-const why = (y) => {
-  if (y < height / 1.5) {
-    return 1
-  } else {
-    return 2
-  }
-}
+
+
