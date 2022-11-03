@@ -28,12 +28,11 @@ const isAllUpperCase = (s) => {
 }
 
 const sameIgnoringCase = (s1,s2) => {
-  if (s1 !== s2) {
+  if (s1 === s2) {
     return true
   } else{
     return false
   }
-
 }
 
 const firstHalf = (s) => {
