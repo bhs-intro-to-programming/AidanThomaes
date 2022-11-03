@@ -45,3 +45,4 @@ const everyOther = (s) => {
 const upDownLastCharacter = (s) => {
   return s[s.length-1].toUpperCase() + s[s.length-1].toLowerCase()
 }
+
