@@ -71,5 +71,5 @@ const allButFirst = (s) => {
 }
 
 const firstThree = (s) => {
-  return s.substring(0,2)
+  return s.substring(0,3)
 }
