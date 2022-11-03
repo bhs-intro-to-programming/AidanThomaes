@@ -77,3 +77,7 @@ const firstThree = (s) => {
 const allButFirstAndList = (s) => {
   return s.substring(1,s.length-1)
 }
+
+const lastThree = (s) => {
+  return s.substring(s.length-3,s.length-1)
+}
