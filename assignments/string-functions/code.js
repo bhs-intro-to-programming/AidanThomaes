@@ -87,5 +87,5 @@ const capitalize = (s) => {
 }
 
 const capitalizeFirstThree = (s) => {
-  return s.substring(0,3).toUpperCase() + s.substring(4).toLowerCase()
+  return s.substring(0,3).toUpperCase() + s.substring(3).toLowerCase()
 }
