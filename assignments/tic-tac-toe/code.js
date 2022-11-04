@@ -22,17 +22,16 @@ registerOnclick((x, y) => {
 const turn = (x, y) => {
 
   drawText(player1, x, y, 'black', Math.min(width, height) * 0.3);
-  
+
   drawText(player2, x, y, 'black', Math.min(width, height) * 0.3);
-  
+
 }
 
-const board = ([], [], [])
-
-const returnBoard = (n) => {
-  board.push(3,3['s'])
-  return board
-} 
+const board = [
+  ['', '', ''],
+  ['', '', ''],
+  ['', '', '']
+];
 
 const checkRow = (y) => {
   if (y < height / 3) {
