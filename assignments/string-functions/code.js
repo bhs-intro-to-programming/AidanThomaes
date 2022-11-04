@@ -36,7 +36,7 @@ const firstHalf = (s) => {
 }
 
 const secondHalf = (s) => {
-  return s.substring(s.length/2)
+  return s.substring(Math.floor(s.length/2))
 }
 
 const upDown = (s) => {
