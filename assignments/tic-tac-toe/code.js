@@ -27,7 +27,7 @@ const turn = (x, y) => {
   
 }
 
-const board = (['', '', ''], ['', '', ''], ['', '', ''])
+let board = (['', '', ''], ['', '', ''], ['', '', ''])
 
 const checkRow = (y) => {
   if (y < height / 3) {
