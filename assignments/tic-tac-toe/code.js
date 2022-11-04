@@ -22,13 +22,8 @@ registerOnclick((x, y) => {
 
 
 const turn = (x, y) => {
-  for (let i = 0; i < 10; i++) {
-    if (i % 2 !== 0) {
-      drawText(player1, x, y, 'black', Math.min(width, height) * 0.3);
-    } else {
-      drawText(player2, x, y, 'black', Math.min(width, height) * 0.3);
-    }
-  }
+  drawText(player1, x, y, 'black', Math.min(width, height) * 0.3);
+  drawText(player2, x, y, 'black', Math.min(width, height) * 0.3);
 }
 
 const board = (['', '', ''], ['', '', ''], ['', '', ''])
