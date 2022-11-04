@@ -3,13 +3,8 @@ const findFnord = (s) => {
 }
 
 const stringContains = (s1,s2) => {
-  if (s1.substring(s1.indexOf(s2),s2.length) === s2) {
-    return true
-  } else if (s1.substring(s1.indexOf(s2)) === s2) {
-    return true
-  }
-  return false
-}
+  return s1.substring(s1.indexOf(s2)) === s2 || s1.substring(s1.indexOf(s2),s2.length) === s2
+} 
 
 const firstAndLast = (s) => {
   return s[0] + s[s.length-1]
