@@ -12,7 +12,7 @@ const stringContains = (s1,s2) => {
 }
 
 const firstAndLast = (s) => {
-  return s.substring(0,1) + s.substring(s.length-1,s.length)
+  return s[0] + s[s.length-1]
 }
 
 const swapFrontAndBack = (s) => {
