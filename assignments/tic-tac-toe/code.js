@@ -19,6 +19,10 @@ registerOnclick((x, y) => {
   checkColumn(x)
 });
 
+const turnCheck = (x,y) => {
+  return drawText(player1, x, y, 'black', Math.min(width, height) * 0.3);
+}
+
 const turn = (x, y) => {
 
   drawText(player1, x, y, 'black', Math.min(width, height) * 0.3);
@@ -49,7 +53,7 @@ const checkColumn = (x) => {
   };
 }
 
-const filllBoard = (board, checkRow, checkColumn) => {
+const fillBoard = (board, checkRow, checkColumn) => {
   board.push(checkRow,checkColumn [turn]);
   return board;
 };
