@@ -22,11 +22,13 @@ registerOnclick((x, y) => {
 
 
 const turn = (x, y) => {
-
-  drawText(player1, x, y, 'black', Math.min(width, height) * 0.3);
-
-  drawText(player2, x, y, 'black', Math.min(width, height) * 0.3);
-
+  for (let i = 0; i < 10; i++) {
+    if (x % 2 !== 0) {
+      drawText(player1, x, y, 'black', Math.min(width, height) * 0.3);
+    } else {
+      drawText(player2, x, y, 'black', Math.min(width, height) * 0.3);
+    }
+  }
 }
 
 const board = (['', '', ''], ['', '', ''], ['', '', ''])
@@ -52,6 +54,6 @@ const checkColumn = (x) => {
 }
 
 const fillBoard = (board, checkRow, checkColumn) => {
-  board.push(checkRow,checkColumn [turn]);
+  board.push(checkRow, checkColumn[turn]);
   return board;
 };
