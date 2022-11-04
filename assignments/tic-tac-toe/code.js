@@ -30,7 +30,7 @@ const turn = (x, y) => {
 const board = ([], [], [])
 
 const returnBoard = (n) => {
-  board.push(n)
+  board.push(3,3['s'])
   return board
 } 
 
