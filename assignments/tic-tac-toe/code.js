@@ -19,9 +19,7 @@ registerOnclick((x, y) => {
   checkColumn(x)
 });
 
-const turnCheck = (x,y) => {
-  return drawText(player1, x, y, 'black', Math.min(width, height) * 0.3);
-}
+
 
 const turn = (x, y) => {
 
