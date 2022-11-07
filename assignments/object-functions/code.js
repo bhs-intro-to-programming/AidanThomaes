@@ -1,3 +1,1 @@
-const getX = ({'x' : x}) => {
-  
-};
+let getX = {'x':10} 
