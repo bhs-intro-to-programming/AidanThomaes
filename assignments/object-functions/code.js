@@ -1,4 +1,4 @@
 const getX = (x) => {
-  let x = { 'x' : x }
-  return 'x'
+  let objectX = { 'x' : x }
+  return objectX['x']
 }
