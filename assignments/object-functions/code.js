@@ -15,5 +15,5 @@ const distance = (object1,object2) => {
 }
 
 const midPoint = (object1,object2) => {
-  return 
+  
 }
