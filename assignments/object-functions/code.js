@@ -19,3 +19,7 @@ const midpoint = (object1,object2) => {
   let y = (object1.y+object2.y)/2
   return {'x':x,'y':y}
 }
+
+const sumSalaries = () => {
+  
+}
