@@ -1,4 +1,4 @@
-let getX = (x,y) => {
+let getX = ({'x':x,'y':y}) => {
   return getX.x
 }
 
