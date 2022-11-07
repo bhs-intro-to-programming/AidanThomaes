@@ -1,3 +1,3 @@
-const getX = (x) => {
-  
+const getX = ({'x' : x}) => {
+  return getX
 };
