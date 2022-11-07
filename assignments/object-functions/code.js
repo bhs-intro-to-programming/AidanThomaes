@@ -15,5 +15,7 @@ const distance = (object1,object2) => {
 }
 
 const midpoint = (object1,object2) => {
-  
+  x = (object1.x+object2.x)/2
+  y = (object1.y+object2.y)/2
+  return {'x':x,'y':y}
 }
