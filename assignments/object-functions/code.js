@@ -1,4 +1,4 @@
-let getX = ({})
+let getX = ({'x':x})
 
   
 
