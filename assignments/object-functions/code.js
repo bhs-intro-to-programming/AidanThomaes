@@ -14,6 +14,6 @@ const distance = (object1,object2) => {
   return Math.sqrt((object1.x-object2.x)**2+(object1.y-object2.y)**2)
 }
 
-const midPoint = (object1,object2) => {
+const midpoint = (object1,object2) => {
   
 }
