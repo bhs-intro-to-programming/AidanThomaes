@@ -1,3 +1,5 @@
-let getX = ({'x':x}) => {
+let getX = (x,y) => {
   return getX.x
 }
+
+let 
