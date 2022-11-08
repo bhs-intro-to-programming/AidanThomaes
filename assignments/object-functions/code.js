@@ -25,5 +25,5 @@ const sumSalaries = (object) => {
   for (let i = 0; i < object.length-1; i++) {
     add = add + object[i].salary
   }
-  
+  return add
 }
