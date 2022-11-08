@@ -32,6 +32,6 @@ const newHighScore = (currentHighScore, array) => {
   for (let i = 0; i < array.length; i++) {
     
   }
-  return 
+  return currentHighScore
 }
 
