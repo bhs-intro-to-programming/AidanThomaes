@@ -33,7 +33,8 @@ const newHighScore = (currentHighScore, array) => {
   if (array[0].newHighScore > currentHighScore) {
     return array[0].newHighScore
   }
+  return currentHighScore
 }
-return currentHighScore
-}
+
+
 
