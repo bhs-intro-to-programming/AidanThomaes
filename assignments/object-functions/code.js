@@ -20,6 +20,6 @@ const midpoint = (object1,object2) => {
   return {'x':x,'y':y}
 }
 
-const sumSalaries = () => {
+const sumSalaries = (object) => {
   
 }
