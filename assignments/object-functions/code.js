@@ -21,6 +21,9 @@ const midpoint = (object1, object2) => {
 }
 
 const sumSalaries = (object) => {
-  return object[0].salary
-
+  let add = 0
+  for (let i = 0; i < object.length-1; i++) {
+    add = add + object[i].salary
+  }
+  
 }
