@@ -33,7 +33,7 @@ const newHighScore = (currentHighScore, array) => {
 
       return array[i].newHighScore
     }
-  }
+  
   return currentHighScore
 }
 /*
