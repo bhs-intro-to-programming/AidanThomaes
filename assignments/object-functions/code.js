@@ -38,8 +38,9 @@ const newHighScore = (currentHighScore, array) => {
       if (compare < array[x].score) {
         return array[x].score
       }
+      return compare
     }
-    return compare
+    
 
 
   }
