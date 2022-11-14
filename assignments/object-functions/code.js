@@ -31,20 +31,22 @@ const sumSalaries = (array) => {
 const newHighScore = (currentHighScore, array) => {
   let compare = 0
   for (let i = 0; i < array.length; i++) {
-    if (array[i].score > currentHighScore) {
-      compare = array[i].score
-      for (let x = 0; x < array.length; x++) {
-        if (compare < array[x].score) {
-          return array[x].score
-        }
+    for (let x = 0; x < array.length; x++) {
+      if (array[i].score > currentHighScore) {
+        compare = array[i].score
       }
-      return compare
-
-
+      if (compare < array[x].score) {
+        return array[x].score
+      }
     }
+    return compare
+
+
   }
   return currentHighScore
 }
+
+
 /*
 const summarizeBooks = (array) => {
   let add = 0
