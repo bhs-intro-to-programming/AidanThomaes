@@ -28,7 +28,7 @@ const sumSalaries = (array) => {
   return add
 }
 
-const newHighScore = (currentHighScore, array) => {
+const newHighScore = (array) => {
   return array[4].newHighScore
 }
 /*
