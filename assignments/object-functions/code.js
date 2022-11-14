@@ -34,7 +34,7 @@ const newHighScore = (currentHighScore, array) => {
       return array[i].newHighScore
     }
   }
- return newHighScore
+  return currentHighScore
 }
 /*
 const summarizeBooks = (array) => {
