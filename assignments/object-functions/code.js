@@ -28,6 +28,7 @@ const sumSalaries = (array) => {
   return add
 }
 
+// doesn't actually work
 const newHighScore = (currentHighScore, array) => {
   let compare = 0
   for (let i = 0; i < array.length; i++) {
@@ -38,21 +39,12 @@ const newHighScore = (currentHighScore, array) => {
           return array[x].score
         }
       }
-      return compare
-
-
+      
     }
   }
   return currentHighScore
 }
-/*
-const summarizeBooks = (array) => {
-  let add = 0
-  let titles = {'titles':0}
-  for (let i = 0; i < array.length; i++) {
-  titles = titles + 
-    add = add + array[i].pages
-  }
-  return titles
+
+summarizeBooks = (array) => {
+  
 }
-*/
