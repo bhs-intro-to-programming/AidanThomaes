@@ -43,9 +43,17 @@ const bigWinners = (players) => {
 };
 
 const fillTimesTable = (table) => {
+
 };
 
 const sums = (n) => {
+  let list = []
+  let add = 0
+  for (let i = 0; i < n + 2; i++) {
+    list.push(add)
+    add = add + list.length+1
+  }
+  return list
 };
 
 const rule110 = (cells) => {
