@@ -31,7 +31,7 @@ const isWinner = (player) => {
 const updateWins = (players) => {
   let list = []
   for (let i = 0; i < players.length; i++) {
-    if (players[i].score === isWinner) {
+    if (players[i].score > 100) {
       let newWins = players[i].wins+1
       list.push({'wins':newWins,'score':players[i].score})
     } else {
