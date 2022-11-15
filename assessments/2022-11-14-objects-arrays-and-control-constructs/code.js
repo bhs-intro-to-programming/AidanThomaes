@@ -29,7 +29,14 @@ const isWinner = (player) => {
 };
 
 const updateWins = (players) => {
-
+  let list = []
+  for (let i = 0; i < players.length; i++) {
+    if (players[i].score === isWinner) {
+      list.push({'wins':players[i].wins+1,'score':players[i].score})
+    } else {
+      list.push({'wins':players[i].wins,'score':players[i].score})
+    }
+  }
 };
 
 const bigWinners = (players) => {
@@ -57,4 +64,5 @@ const sums = (n) => {
 };
 
 const rule110 = (cells) => {
+
 };
