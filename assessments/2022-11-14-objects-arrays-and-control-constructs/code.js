@@ -28,13 +28,14 @@ const isWinner = (player) => {
   return player.score > 100
 };
 
-const updateWins = (player) => {
+// cant quite figure out how to use isWinner and have it work
+const updateWins = (players) => {
   let list = []
-  for (let i = 0; i < player.length; i++) {
-    if (player[i].score === isWinner) {
-      list.push({'wins':player[i].wins+1,'score':player[i].score})
+  for (let i = 0; i < players.length; i++) {
+    if (players[i].score > 100) {
+      list.push({'wins':players[i].wins+1,'score':players[i].score})
     } else {
-      list.push({'wins':player[i].wins,'score':player[i].score})
+      list.push({'wins':players[i].wins,'score':players[i].score})
     }
   }
   return list
