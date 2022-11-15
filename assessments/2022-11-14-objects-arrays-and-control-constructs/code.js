@@ -34,12 +34,9 @@ const updateWins = (players) => {
   for (let i = 0; i < players.length; i++) {
     if (players[i].score === isWinner) {
       newWins = players[i].wins+1
-      list.push({'wins':newWins,'score':players[i].score})
-    } else {
-      list.push({'wins':players[i].wins,'score':players[i].score})
-    }
+      
   }
-  return list
+  return newWins
 };
 
 const bigWinners = (players) => {
