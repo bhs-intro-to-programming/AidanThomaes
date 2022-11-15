@@ -33,7 +33,7 @@ const updateWins = (players) => {
   let newWins = 0
   for (let i = 0; i < players.length; i++) {
     if (players[i].score === isWinner) {
-      newWins = players[i].wins + 1
+      newWins = players[i].wins
 
     }
     return newWins
