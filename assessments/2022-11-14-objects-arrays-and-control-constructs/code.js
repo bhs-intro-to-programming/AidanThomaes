@@ -29,9 +29,17 @@ const isWinner = (player) => {
 };
 
 const updateWins = (players) => {
+
 };
 
 const bigWinners = (players) => {
+  let list = []
+  for (let i = 0; i < players.length; i++) {
+    if (players[i].wins > 10){
+      list.push(players[i].wins)
+    }
+  }
+  return list
 };
 
 const fillTimesTable = (table) => {
