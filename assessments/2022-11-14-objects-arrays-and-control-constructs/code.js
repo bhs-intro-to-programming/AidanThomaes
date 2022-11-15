@@ -37,6 +37,7 @@ const updateWins = (players) => {
       list.push({'wins':players[i].wins,'score':players[i].score})
     }
   }
+  return list
 };
 
 const bigWinners = (players) => {
