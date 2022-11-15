@@ -30,9 +30,11 @@ const isWinner = (player) => {
 
 const updateWins = (players) => {
   let list = []
+  let newWins = 0
   for (let i = 0; i < players.length; i++) {
     if (players[i].score === isWinner) {
-      list.push({'wins':players[i].wins+1,'score':players[i].score})
+      newWins = players[i].wins+1
+      list.push({'wins':newWins,'score':players[i].score})
     } else {
       list.push({'wins':players[i].wins,'score':players[i].score})
     }
