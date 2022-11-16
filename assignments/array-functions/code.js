@@ -20,7 +20,7 @@ const evens = (array) => {
   let list = []
   for (let i = 0; i < array.legth; i++) {
     if (array[i] % 2 === 0) {
-      list.push(array[i])
+      list.push(1)
     }
   }
   return list
