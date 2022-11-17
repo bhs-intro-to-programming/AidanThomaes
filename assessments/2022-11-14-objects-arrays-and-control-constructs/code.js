@@ -28,7 +28,6 @@ const isWinner = (player) => {
   return player.score > 100
 };
 
-// cant quite figure out how to use isWinner and have it work
 const updateWins = (players) => {
   for (let i = 0; i < players.length; i++) {
     if (isWinner(players[i])) {
@@ -48,7 +47,7 @@ const bigWinners = (players) => {
 };
 
 const fillTimesTable = (table) => {
-
+  
 };
 
 const sums = (n) => {
