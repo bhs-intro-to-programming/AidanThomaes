@@ -15,13 +15,13 @@ const higherPaid = (e1, e2) => {
 };
 
 const isSamePoint = (p1, p2) => {
-  return (p1.x,p1.y) === (p2.x,p2.y)
+  return p1.x === p2.x && p2.y === p1.y
 };
 
 const totalWithTip = (bill, tipPercentage) => {
   let tip = bill.subtotal * (tipPercentage)
   let total = bill.subtotal + tip
-  return {'subtotal':bill.subtotal, 'tip':tip,'total':total}
+  return { 'subtotal': bill.subtotal, 'tip': tip, 'total': total }
 };
 
 const isWinner = (player) => {
@@ -33,9 +33,9 @@ const updateWins = (players) => {
   let list = []
   for (let i = 0; i < players.length; i++) {
     if (players[i].score > 100) {
-      list.push({'wins':players[i].wins+1,'score':players[i].score})
+      list.push({ 'wins': players[i].wins + 1, 'score': players[i].score })
     } else {
-      list.push({'wins':players[i].wins,'score':players[i].score})
+      list.push({ 'wins': players[i].wins, 'score': players[i].score })
     }
   }
   return list
@@ -44,7 +44,7 @@ const updateWins = (players) => {
 const bigWinners = (players) => {
   let list = []
   for (let i = 0; i < players.length; i++) {
-    if (players[i].wins > 10){
+    if (players[i].wins > 10) {
       list.push(players[i].wins)
     }
   }
