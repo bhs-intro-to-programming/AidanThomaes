@@ -34,6 +34,9 @@ const newHighScore = (currentHighScore, array) => {
   for (let i = 0; i < array.length; i++) {
     if (array[i].score > currentHighScore) {
       compare = array[i].score
+      if (array[i].score > compare) {
+        compare = array[i].score
+      }
     }
   }
   return compare
