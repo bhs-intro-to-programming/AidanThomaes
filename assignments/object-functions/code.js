@@ -35,9 +35,8 @@ const newHighScore = (currentHighScore, array) => {
     if (array[i].score > currentHighScore) {
       compare = array[i].score
     }
-    return compare
   }
-  return currentHighScore
+  return compare
 }
 
 const summarizeBooks = (array) => {
