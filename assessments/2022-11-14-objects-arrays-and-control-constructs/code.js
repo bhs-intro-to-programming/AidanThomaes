@@ -19,7 +19,7 @@ const isSamePoint = (p1, p2) => {
 };
 
 const totalWithTip = (bill, tipPercentage) => {
-  let tip = bill.subtotal * (tipPercentage)
+  let tip = bill.subtotal * tipPercentage
   let total = bill.subtotal + tip
   return { 'subtotal': bill.subtotal, 'tip': tip, 'total': total }
 };
@@ -30,15 +30,11 @@ const isWinner = (player) => {
 
 // cant quite figure out how to use isWinner and have it work
 const updateWins = (players) => {
-  let list = []
   for (let i = 0; i < players.length; i++) {
-    if (players[i].score > 100) {
-      list.push({ 'wins': players[i].wins + 1, 'score': players[i].score })
-    } else {
-      list.push({ 'wins': players[i].wins, 'score': players[i].score })
+    if (isWinner(players[i])) {
+      players[i].wins++
     }
   }
-  return list
 };
 
 const bigWinners = (players) => {
