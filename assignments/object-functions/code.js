@@ -37,8 +37,9 @@ const newHighScore = (currentHighScore,array) => {
 }
 
 const summarizeBooks = (array) => {
+  pages = 0
   for (let i = 0; i < array.length; i++) {
-
+    pages = array[i].pages
   }
-  
+  return pages
 }
