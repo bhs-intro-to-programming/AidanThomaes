@@ -5,3 +5,8 @@ const getX = (object) => {
 const point = (x,y) => {
   return {x, y}
 }
+
+const emptyObject = (object) => {
+  return {}
+}
+
