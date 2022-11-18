@@ -50,7 +50,9 @@ const fillTimesTable = (table) => {
   let x = 0
   for (let i = 0; i < table.length; i++) {
     for (x < table[i].length; x++;) {
+      table.pop('0')
       table[i][x] = i * x
+
     }
   }
   return table
