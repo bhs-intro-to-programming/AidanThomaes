@@ -35,27 +35,7 @@ const board = [
   ['', '', '']
 ];
 
-const checkRow = (y) => {
-  if (y < height / 3) {
-    return 1;
-  } else if (y < height / 1.5) {
-    return 2;
-  } else {
-    return 3;
-  };
-};
 
-const checkColumn = (x) => {
-  if (x < width / 3) {
-    return 1;
-  } else if (x < width / 1.5) {
-    return 2;
-  } else {
-    return 3;
-  };
-}
 
-const fillBoard = (board, checkRow, checkColumn) => {
-  board.push(checkRow, checkColumn['X']);
-  return board;
-};
+
+
