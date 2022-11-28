@@ -16,12 +16,13 @@ let player2 = 'O';
 let move = 0
 
 registerOnclick((x, y) => {
-   if (move % 2 === 0) {
-  drawText(player1, x, y, 'black', Math.min(width, height) * 0.3);
+  if (move % 2 === 0) {
+    drawText(player1, x, y, 'black', Math.min(width, height) * 0.3);
   } else {
-  drawText(player2, x, y, 'black', Math.min(width, height) * 0.3);
+    drawText(player2, x, y, 'black', Math.min(width, height) * 0.3);
   }
-  move ++
+  move++
+
   checkRow(y)
   checkColumn(x)
 });
@@ -55,6 +56,6 @@ const checkColumn = (x) => {
 }
 
 const fillBoard = (board, checkRow, checkColumn) => {
-  board.push(checkRow, checkColumn[turn]);
+  board.push(checkRow, checkColumn['X']);
   return board;
 };
