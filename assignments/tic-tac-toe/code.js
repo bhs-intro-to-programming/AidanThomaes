@@ -17,7 +17,7 @@ const board = () => {
     drawLine(0, y, width, y)
   }
 }
-
+board()
 
 let player1 = 'X';
 let player2 = 'O';
