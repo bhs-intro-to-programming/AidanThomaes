@@ -6,8 +6,9 @@
 // weeks but for now you can just adapt this code
 
 const board = () => {
+  let x = 0
   for (let i = 0; i < 2; i++) {
-    const x = (i+1) * width / 3 
+    x = (i+1) * width / 3 
     drawLine (x,0,x,height,'black')
   }  
 }
