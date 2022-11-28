@@ -24,6 +24,7 @@ board()
 let move = 0
 
 registerOnclick((x, y) => {
+  const row = y/height/3
   if (move % 2 === 0) {
     drawText('X', x, row, 'black', Math.min(width, height) * 0.3);
   } else {
@@ -31,7 +32,7 @@ registerOnclick((x, y) => {
   }
   move++
 
-  const row = y/height/3
+  
 
 });
 
