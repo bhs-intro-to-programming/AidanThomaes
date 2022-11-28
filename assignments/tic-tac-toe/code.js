@@ -14,10 +14,10 @@ const board = () => {
   }
   for (let i = 0; i < 2; i++) {
     y = (i + 1) * height / 3
-    drawLine(0,y,width,y)
+    drawLine(0, y, width, y)
   }
 }
-board()
+
 
 let player1 = 'X';
 let player2 = 'O';
