@@ -27,15 +27,12 @@ registerOnclick((x, y) => {
   if (move % 2 === 0) {
     drawText('X', x, row, 'black', Math.min(width, height) * 0.3);
   } else {
-    drawText('O', x, row, 'black', Math.min(width, height) * 0.3);
+    drawText('O', x, y, 'black', Math.min(width, height) * 0.3);
   }
   move++
 
-  const row = (y) => {
-    if (y < height / 6)
-    return height / 27
+  const row = y/height/3
 
-  }
 });
 
 
