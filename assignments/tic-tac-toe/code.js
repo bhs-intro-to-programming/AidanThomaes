@@ -19,21 +19,19 @@ const board = () => {
 }
 board()
 
-let player1 = 'X';
-let player2 = 'O';
+
 
 let move = 0
 
 registerOnclick((x, y) => {
   if (move % 2 === 0) {
-    drawText(player1, x, y, 'black', Math.min(width, height) * 0.3);
+    drawText('X', x, y, 'black', Math.min(width, height) * 0.3);
   } else {
-    drawText(player2, x, y, 'black', Math.min(width, height) * 0.3);
+    drawText('O', x, y, 'black', Math.min(width, height) * 0.3);
   }
   move++
 
-  checkRow(y)
-  checkColumn(x)
+  
 });
 
 
