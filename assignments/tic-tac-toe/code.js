@@ -24,15 +24,17 @@ board()
 let move = 0
 
 registerOnclick((x, y) => {
-  if (move % 2 === 0) {
-    drawText('X', x, y, 'black', Math.min(width, height) * 0.3);
-  } else {
-    drawText('O', x, y, 'black', Math.min(width, height) * 0.3);
+  const turn = (move) => {
+    if (move % 2 === 0) {
+      turn = 'X'
+    }else {
+      turn = 'Y'
+    }
   }
   move++
 
   
-
+  drawText ('turn',x,y,'black',Math.min(width,height)/3)
 });
 
 
