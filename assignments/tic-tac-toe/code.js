@@ -7,12 +7,17 @@
 
 const board = () => {
   let x = 0
+  let y = 0
   for (let i = 0; i < 2; i++) {
-    x = (i+1) * width / 3 
-    drawLine (x,0,x,height,'black')
-  }  
+    x = (i + 1) * width / 3
+    drawLine(x, 0, x, height, 'black')
+  }
+  for (let i = 0; i < 2; i++) {
+    y = (i + 1) * height / 3
+    drawLine(0,y,width,y)
+  }
 }
-board ()
+board()
 
 let player1 = 'X';
 let player2 = 'O';
