@@ -24,7 +24,7 @@ board()
 let move = 0
 
 registerOnclick((x, y) => {
-  const turn = move % 2 === 0 ? 'X' : 'Y';
+  const turn = move % 2 === 0 ? 'X' : 'O';
   move++
 
   
