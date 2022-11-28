@@ -13,6 +13,8 @@ drawLine(0, height / 1.5, width, height / 1.5)
 let player1 = 'X';
 let player2 = 'O';
 
+let move = 0
+
 registerOnclick((x, y) => {
   turn(x, y)
   checkRow(y)
@@ -20,11 +22,11 @@ registerOnclick((x, y) => {
 });
 
 const turn = (x, y) => {
-
+  if (move % 2 === 0) {
   drawText(player1, x, y, 'black', Math.min(width, height) * 0.3);
-
+  } else {
   drawText(player2, x, y, 'black', Math.min(width, height) * 0.3);
-
+  }
 }
 
 const board = [
