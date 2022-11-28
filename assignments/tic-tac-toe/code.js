@@ -27,6 +27,7 @@ const turn = (x, y) => {
   } else {
   drawText(player2, x, y, 'black', Math.min(width, height) * 0.3);
   }
+  move ++
 }
 
 const board = [
