@@ -5,10 +5,12 @@
 // is called an anonymous function. We'll discuss this in more detail in a few
 // weeks but for now you can just adapt this code
 
-drawLine(width / 3, 0, width / 3, height)
-drawLine(width / 1.5, 0, width / 1.5, height)
-drawLine(0, height / 3, width, height / 3)
-drawLine(0, height / 1.5, width, height / 1.5)
+const board = () => {
+  for (let i = 0; i < 2; i++) {
+    i * width / 3 
+  }  
+}
+board ()
 
 let player1 = 'X';
 let player2 = 'O';
@@ -29,11 +31,7 @@ registerOnclick((x, y) => {
 
 
 
-const board = [
-  ['', '', ''],
-  ['', '', ''],
-  ['', '', '']
-];
+
 
 
 
