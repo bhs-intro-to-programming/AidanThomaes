@@ -34,7 +34,7 @@ registerOnclick((x, y) => {
   move++
 
   
-  drawText ('turn',x,y,'black',Math.min(width,height)/3)
+  drawText (turn,x,y,'black',Math.min(width,height)/3)
 });
 
 
