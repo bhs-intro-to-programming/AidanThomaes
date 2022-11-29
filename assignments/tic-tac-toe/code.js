@@ -28,7 +28,7 @@ registerOnclick((x, y) => {
   move++
   const row = (y) => {
     if (y < width / 3) {
-      return 100
+      row = 100
     }
   }
   const column = (y * 3) / width + 88
