@@ -26,7 +26,7 @@ let move = 0
 registerOnclick((x, y) => {
   const turn = move % 2 === 0 ? 'X' : 'O';
   move++
-  const row = y / (200)
+  const row = y / (10)
 
   drawText(turn, x, row, 'black', Math.min(width, height) / 3)
 });
