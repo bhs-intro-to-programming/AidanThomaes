@@ -12,8 +12,8 @@ const board = () => {
     x = i * width / 3
     drawLine(x, 0, x, height, 'black')
   }
-  for (let i = 0; i < 2; i++) {
-    y = (i + 1) * height / 3
+  for (let i = 0; i < 4; i++) {
+    y = i * height / 3
     drawLine(0, y, width, y), 'black'
   }
 }
