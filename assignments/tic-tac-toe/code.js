@@ -9,11 +9,11 @@ const board = () => {
   let x = 0
   let y = 0
   for (let i = 0; i < 4; i++) {
-    x = i * width / 3
+    x = (i + 1) * width / 3
     drawLine(x, 0, x, height, 'black')
   }
-  for (let i = 0; i < 4; i++) {
-    y = i * height / 3
+  for (let i = 0; i < 2; i++) {
+    y = (i + 1) * height / 3
     drawLine(0, y, width, y), 'black'
   }
 }
@@ -27,8 +27,8 @@ registerOnclick((x, y) => {
   const turn = move % 2 === 0 ? 'X' : 'O';
   move++
 
-  
-  drawText (turn,x,y,'black',Math.min(width,height)/3)
+
+  drawText(turn, x, y, 'black', Math.min(width, height) / 3)
 });
 
 
