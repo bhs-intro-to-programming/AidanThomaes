@@ -8,8 +8,8 @@
 const board = () => {
   let x = 0
   let y = 0
-  for (let i = 0; i < 2; i++) {
-    x = (i + 1) * width / 3
+  for (let i = 0; i < 3; i++) {
+    x = i * width / 3
     drawLine(x, 0, x, height, 'black')
   }
   for (let i = 0; i < 2; i++) {
