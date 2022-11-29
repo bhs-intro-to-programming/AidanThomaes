@@ -28,8 +28,7 @@ registerOnclick((x, y) => {
   move++
   
   
-  const row = (y * 9) / height / 9 + 56
-  const column = (y * 3) / width + 88
+
 
   drawText(turn, x, row, 'black', Math.min(width, height) / 3)
 });
