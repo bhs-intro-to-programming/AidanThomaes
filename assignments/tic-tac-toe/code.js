@@ -26,15 +26,16 @@ let move = 0
 registerOnclick((x, y) => {
   const turn = move % 2 === 0 ? 'X' : 'O';
   move++
-  const row = y / height + (height / rowNum)
-
-  drawText(turn, x, row, 'black', Math.min(width, height) / 3)
-
   const rowNum = (y) => {
     if (y < height / 6) {
       return 3
     }
   }
+  const row = y / height + (height / rowNum)
+
+  drawText(turn, x, row, 'black', Math.min(width, height) / 3)
+
+  
 });
 
 
