@@ -28,7 +28,7 @@ registerOnclick((x, y) => {
   move++
   const rowNum = (y) => {
     if (y < wifth/3) {
-      10
+      return 10
     }
   }
   const row = y * rowNum
