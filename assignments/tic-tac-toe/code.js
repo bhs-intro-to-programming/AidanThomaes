@@ -8,7 +8,7 @@
 const board = () => {
   let x = 0
   let y = 0
-  for (let i = 0; i < 3; i++) {
+  for (let i = 0; i < 4; i++) {
     x = i * width / 3
     drawLine(x, 0, x, height, 'black')
   }
