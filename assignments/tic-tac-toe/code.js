@@ -32,7 +32,6 @@ registerOnclick((x, y) => {
   
 
   move++
-  dra
 });
 
 
