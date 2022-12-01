@@ -12,6 +12,6 @@
 //
 // Which will load the file and pass them to your function and then print the
 // return value in the REPL.
-
+const calories = '100020003000 4000 50006000'
 const split = calories.split(' ');
 
