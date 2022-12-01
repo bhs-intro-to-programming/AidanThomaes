@@ -26,7 +26,7 @@ let move = 0
 registerOnclick((x, y) => {
   if (move % 2 === 0) {
     if (y < height / 3 && x < width / 3) {
-      drawText ('X', 120, 60, 'black' , Math.min(width,height)/3)
+      drawText ('X', 100, 60, 'black' , Math.min(width,height)/3)
     }
   }
   
