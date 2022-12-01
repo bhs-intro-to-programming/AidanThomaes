@@ -12,3 +12,6 @@
 //
 // Which will load the file and pass them to your function and then print the
 // return value in the REPL.
+
+const split = calories.split(' ');
+
