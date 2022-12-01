@@ -15,4 +15,3 @@
 const calories = '100020003000 4000 50006000'
 const split = calories.split(' ');
 
-const parse = Number.pa(x,base)
