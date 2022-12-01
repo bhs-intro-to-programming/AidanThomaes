@@ -24,9 +24,13 @@ board()
 let move = 0
 
 registerOnclick((x, y) => {
-  const turn = move % 2 === 0 ? 'X' : 'O';
-  move++
-  const row = y /3 + height / 3
+  const turn = (move) => {
+    if (move % 2 === 0) {
+      return 'X'
+    } else {
+      return 'O'
+    }
+  }
   
 
 
