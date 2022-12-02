@@ -28,5 +28,6 @@ const winningRecord = (wins, losses, ties) => {
 }
 
 const isMagicNumber = (n) => {
+  // 42 is the meaning of life from The Hitchhikers Guide to the Galaxy
   return n === 42 || n === 17
 }
