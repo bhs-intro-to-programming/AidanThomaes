@@ -7,11 +7,11 @@ const needSunscreen = (goingToBeach, goingSkiing) => {
 }
 
 const needMittens = (goingOutside, warm) => {
-  return goingOutside &&! warm
+  return goingOutside && !warm
 }
 
 const isVenomous = (striped, blueHead) => {
-  return striped ||! blueHead
+  return striped || !blueHead
 }
 
 const okaySpeed = (speedLimit, speed) => {
@@ -20,4 +20,9 @@ const okaySpeed = (speedLimit, speed) => {
 
 const twiceAsExpensive = (price1, price2) => {
   return price1 * 2 > price2
+}
+
+const winningRecord = (wins, losses, ties) => {
+  let totalGames = wins + losses + ties
+  return wins > totalGames / 2
 }
