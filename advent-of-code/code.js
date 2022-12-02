@@ -15,11 +15,11 @@
 const calories = '100020003000 4000 50006000'
 const split = calories.split(' ');
 
-const day1Part1 = (array) => {
+const day1Part1 = (split) => {
   let elf = 0
   let most = 0
-  for (let i = 0; i < array.length; i++){
-
+  for (let i = 0; i < split.length; i++){
+    Number.parse(split[i],10)
     
   }
 }
