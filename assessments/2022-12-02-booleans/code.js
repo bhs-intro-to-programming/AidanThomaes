@@ -26,3 +26,7 @@ const winningRecord = (wins, losses, ties) => {
   let totalGames = wins + losses + ties
   return wins > totalGames / 2
 }
+
+const isMagicNumber = (n) => {
+  return n === 42 || n === 17
+}
