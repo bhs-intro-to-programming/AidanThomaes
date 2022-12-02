@@ -18,11 +18,8 @@ const split = calories.split(' ');
 const day1Part1 = (split) => {
   let elf = 0
   let most = 0
-  for (let i = 0; i < split.length; i++){
-    elf = Number.parseInt(split[i],10)
-    if (elf > most) {
-      most = elf 
-    }
+  for (let i = 0; i < split.length; i++) {
+    elf = Number.parseInt(split[i], 10)
   }
-  return most 
+  return elf
 }
