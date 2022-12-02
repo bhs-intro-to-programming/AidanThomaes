@@ -24,4 +24,5 @@ const day1Part1 = (split) => {
       most = elf 
     }
   }
+  console.log(elf)
 }
