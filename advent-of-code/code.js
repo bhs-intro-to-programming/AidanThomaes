@@ -16,5 +16,5 @@ const calories = '100020003000 4000 50006000'
 const split = calories.split(' ');
 
 const day1Part1 = (split) => {
-  return Number.parseInt (split[1], 10)
+  return Number.parseInt (split[0], 10)
 }
