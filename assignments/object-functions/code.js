@@ -3,7 +3,7 @@ const getX = (object) => {
 }
 
 const point = (x, y) => {
-  return { x, y }
+  return { 'x': x, 'y': y }
 }
 
 const emptyObject = (object) => {
@@ -15,22 +15,25 @@ const distance = (object1, object2) => {
 }
 
 const midpoint = (object1, object2) => {
-  return { x: (object1.x + object2.x) / 2, y: (object1.y + object2.y) / 2 }
+  let x = (object1.x + object2.x) / 2
+  let y = (object1.y + object2.y) / 2
+  return { 'x': x, 'y': y }
 }
 
 const sumSalaries = (array) => {
   let add = 0
   for (let i = 0; i < array.length; i++) {
-    add += array[i].salary
+    add = add + array[i].salary
   }
   return add
 }
 
-const newHighScore = (currentHighScore,array) => {
+// doesn't actually work
+const newHighScore = (currentHighScore, array) => {
   let compare = currentHighScore
   for (let i = 0; i < array.length; i++) {
-    if (compare < array[i].score) {
-    compare = array[i].score
+    if (array[i].score > compare) {
+      compare = array[i].score
     }
   }
   return compare
@@ -38,11 +41,10 @@ const newHighScore = (currentHighScore,array) => {
 
 const summarizeBooks = (array) => {
   let pages = 0
-  let titles = {}
+  let titles = []
   for (let i = 0; i < array.length; i++) {
-    pages += array[i].pages
+    pages = pages + array[i].pages
     titles.push(array[i].title)
   }
-  return titles
-  return pages
+  return { titles, pages }
 }
