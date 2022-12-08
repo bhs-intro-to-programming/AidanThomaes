@@ -1,3 +1,5 @@
+const emit = (a, b) => console.log(a + ', ' + b);
+
 const yesIfEven = (n) => {
   if (n % 2 === 0) {
     return 'yes'
@@ -14,3 +16,5 @@ const countXs = (s) => {
   }
   return count
 }
+
+const timesTable
