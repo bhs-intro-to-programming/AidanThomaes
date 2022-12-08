@@ -21,5 +21,6 @@ const timesTable = (n) => {
   for (let i = 0; i < n; i++) {
     emit (n , n-i)
     emit (n-i , n)
+    emit (n-i, n-i)
   }
 }
