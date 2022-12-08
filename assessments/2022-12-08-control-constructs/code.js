@@ -18,6 +18,7 @@ const countXs = (s) => {
 }
 
 const timesTable = (n) => {
+  emit(n,n)
   for (let i = 0; i < n; i++) {
     for(let x = 0; x < i; x++) {
       if (n - i > 0) {
@@ -26,7 +27,6 @@ const timesTable = (n) => {
       }
     }
   }
-  emit (n,n)
 }
 
 const containsX = (s) => {
