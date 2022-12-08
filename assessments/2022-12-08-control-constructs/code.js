@@ -26,6 +26,7 @@ const timesTable = (n) => {
       }
     }
   }
+  emit (n,n)
 }
 
 const containsX = (s) => {
