@@ -4,5 +4,7 @@
   "Both foo and bar",
   "i < 10",
   "100",
+  "10",
+  null,
   "10"
 ]
