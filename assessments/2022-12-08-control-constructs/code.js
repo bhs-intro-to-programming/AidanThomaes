@@ -23,7 +23,7 @@ const timesTable = (n) => {
     for(let x = 0; x < i; x++) {
       if (n - i > 0) {
         emit (n-x,n-i)
-        emit (n-i, n-i)
+      
       }
     }
   }
