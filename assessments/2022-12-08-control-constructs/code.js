@@ -24,7 +24,7 @@ const timesTable = (n) => {
       if (n - i > 0) {
         emit (n-x,n-i,(n-x)*(n-i))
         emit (n-i,n-x,(n-i)*(n-x))
-        emit (n-x,n-x,(n-x)*(n-x))
+        emit (n-i,n-i,(n-i)*(n-i))
       }
     }
   }
