@@ -19,11 +19,12 @@ const countXs = (s) => {
 
 const timesTable = (n) => {
   for (let x = 0; x < n; x++) {
-    for (let y = 0; y < x; y++)
-    emit (n-x,n-y)
-    emit (n-x,n)
-    emit (n,n-x)
     
+  }
+}
 
+const containsX = (s) => {
+  for (let i = 0; i < s.length; i++) {
+    return s[i] === 'x'
   }
 }
