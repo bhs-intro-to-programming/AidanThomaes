@@ -20,9 +20,10 @@ const countXs = (s) => {
 const timesTable = (n) => {
   for (let x = 0; x < n; x++) {
     for (let y = 0; y < x; y++)
+    emit (n-x,n-y)
     emit (n-x,n)
     emit (n,n-x)
-    emit (n-x,n-y)
+    
 
   }
 }
