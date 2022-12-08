@@ -17,6 +17,7 @@ const countXs = (s) => {
   return count
 }
 
+//a little scuffed
 const timesTable = (n) => {
   emit(n,n,n*n)
   for (let i = 0; i < n; i++) {
