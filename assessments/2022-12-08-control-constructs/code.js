@@ -37,4 +37,5 @@ const sumSquares = (n) => {
   for (let i = 0; i < n; i++) {
     sum += i**2
   }
+  return sum
 }
