@@ -18,8 +18,8 @@ const countXs = (s) => {
 }
 
 const timesTable = (n) => {
-  for (let x = 0; x < n; x++) {
-    
+  for (let i = 0; i < n; i++) {
+    emit (n,n,n*n)
   }
 }
 
