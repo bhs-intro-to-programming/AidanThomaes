@@ -4,3 +4,13 @@ const yesIfEven = (n) => {
   }
   return 'no'
 }
+
+const countXs = (s) => {
+  let count = 0
+  for (let i = 0; i < s.length; i++) {
+    if (countXs[i] === 'x') {
+      count++
+    }
+  }
+  return count
+}
