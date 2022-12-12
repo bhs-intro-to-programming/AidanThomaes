@@ -22,3 +22,5 @@ const recordMove = (array, makeMove) => {
   array.push(makeMove)
   return array
 }
+
+const rowForMove = (recordMove, i)
