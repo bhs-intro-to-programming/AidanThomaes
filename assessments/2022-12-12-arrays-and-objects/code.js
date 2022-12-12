@@ -9,7 +9,7 @@ const makeMove = (mark, row, column) => {
 let board = makeBoard
 let move = makeMove('X', 1, 1);
 const placeMark = (board, move) => {
-  board[1][1] = move.mark
+  board[1][1] = 'X'
 }
 
 const allTheSame = (array) => {
