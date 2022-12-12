@@ -1,4 +1,4 @@
-const makeRow = ['', '1', '']
+const makeRow = ['', 'X', '']
 
 const makeBoard = [makeRow, makeRow, makeRow]
 
