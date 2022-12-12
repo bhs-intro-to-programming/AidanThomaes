@@ -20,7 +20,8 @@ const extractColumn = (makeBoard, i) => {
 
 const recordMove = (array, makeMove) => {
   array.push(makeMove)
-  return array
 }
 
-const rowForMove = (recordMove, i)
+const rowForMove = (recordMove, i) => {
+  
+}
