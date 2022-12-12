@@ -6,7 +6,9 @@ const makeMove = (mark, row, column) => {
   return {mark, row, column}
 }
 
-const placeMark = (makeBoard, makeMove) => {
+let board = makeBoard
+let move = makeMove
+const placeMark = (board, move) => {
   
 }
 
@@ -26,3 +28,4 @@ const recordMove = (moves, makeMove) => {
 const rowForMove = (recordMove, i) => {
   return recordMove[i].row
 }
+
