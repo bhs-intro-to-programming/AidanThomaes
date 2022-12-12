@@ -13,11 +13,7 @@ const placeMark = (makeBoard, makeMove) => {
 const allTheSame = (array) => {
   return array[0] === array[1] && array[1] === array[2]
 }
-const board =    [
-     ['X', '', ''],
-     ['O', '', ''],
-     ['', 'X', '']
-   ]
-const exractColumn = (board, i) => {
-  return [board[i][0], board[i][1], board[i][2]]
+
+const exractColumn = (makeBoard, i) => {
+  return [makeBoard[i][0], makeBoard[i][1], makeBoard[i][2]]
 }
