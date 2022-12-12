@@ -7,7 +7,7 @@ const makeMove = (mark, row, column) => {
 }
 
 let board = makeBoard
-const placeMark = (board, move) => {
+const placeMark = (board, makeMove) => {
   board[makeMove.row][makeMove.column] = move.mark
 }
 
