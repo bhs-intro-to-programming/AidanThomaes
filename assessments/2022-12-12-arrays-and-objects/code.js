@@ -5,3 +5,7 @@ const makeBoard = [makeRow, makeRow, makeRow]
 const makeMove = (mark, row, column) => {
   return {mark, row, column}
 }
+
+const placeMark = (makeBoard, makeMove) => {
+  makeBoard[makeMove.row, makeMove.column] = makeMove.mark
+}
