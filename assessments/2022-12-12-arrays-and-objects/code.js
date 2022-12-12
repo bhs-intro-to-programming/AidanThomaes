@@ -18,9 +18,9 @@ const extractColumn = (makeBoard, i) => {
   return [makeBoard[i][0], makeBoard[i][1], makeBoard[i][2]]
 }
 
-const recordMove = (array, makeMove) => {
-  let array = []
-  array.push(makeMove)
+let moves = []
+const recordMove = (moves, makeMove) => {
+  moves.push(makeMove)
 }
 
 const rowForMove = (recordMove, i) => {
