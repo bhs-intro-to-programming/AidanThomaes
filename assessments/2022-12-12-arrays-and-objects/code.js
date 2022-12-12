@@ -14,6 +14,6 @@ const allTheSame = (array) => {
   return array[0] === array[1] && array[1] === array[2]
 }
 
-const exractColumn = (makeBoard, i) => {
+const extractColumn = (makeBoard, i) => {
   return [makeBoard[i][0], makeBoard[i][1], makeBoard[i][2]]
 }
