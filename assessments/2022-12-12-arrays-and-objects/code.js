@@ -23,5 +23,5 @@ const recordMove = (array, makeMove) => {
 }
 
 const rowForMove = (recordMove, i) => {
-  
+  return recordMove[i].row
 }
