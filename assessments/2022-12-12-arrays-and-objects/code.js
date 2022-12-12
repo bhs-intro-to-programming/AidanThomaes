@@ -1,6 +1,6 @@
 const makeRow = ['', '', '']
 
-const makeBoard = ['','','', makeRow, makeRow]
+const makeBoard = [makeRow, makeRow, makeRow]
 
 const makeMove = (mark, row, column) => {
   return {mark, row, column}
@@ -16,4 +16,9 @@ const allTheSame = (array) => {
 
 const extractColumn = (makeBoard, i) => {
   return [makeBoard[i][0], makeBoard[i][1], makeBoard[i][2]]
+}
+
+const recordMove = (array, makeMove) => {
+  array.push(makeMove)
+  return array
 }
