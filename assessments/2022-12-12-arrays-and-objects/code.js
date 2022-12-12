@@ -8,8 +8,8 @@ const makeMove = (mark, row, column) => {
 
 let board = makeBoard
 let move = makeMove('X', 1, 1);
-placeMark(board, move);
+
 const placeMark = (makeBoard, makeMove) => {
   makeBoard[makeMove.row, makeMove.column] = makeMove.mark
 }
-
+placeMark(board, move);
