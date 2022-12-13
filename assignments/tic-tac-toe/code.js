@@ -24,14 +24,19 @@ board()
 let move = 0
 
 registerOnclick((x, y) => {
+  let row = 0
   const whichRow = (x) => {
     if (x < height / 3) {
-      return 1
+      row = 1
+    } else if (height/3 < x < height/1.5) {
+      
     }
   }
   const boardRow = ['','','']
   const fullBoard = [boardRow,boardRow,boardRow]
-  
+  const move = (row, column, marker) => {
+    return {row, column, marker}
+  }
   
 
 
