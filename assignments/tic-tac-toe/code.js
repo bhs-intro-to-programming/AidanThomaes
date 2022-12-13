@@ -32,7 +32,7 @@ registerOnclick((x, y) => {
   }
   const boardRow = ['','','']
   const fullBoard = [boardRow,boardRow,boardRow]
-  const move = 
+  
   
 
 
