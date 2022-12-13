@@ -6,8 +6,8 @@ const makeMove = (mark, row, column) => {
   return {mark, row, column}
 }
 
-let board = makeBoard
-let move = makeMove();
+let board = makeBoard();
+let move = makeMove('X',1,1);
 const placeMark = (board, move) => {
   board[move.row][move.column] = move.mark
 }
