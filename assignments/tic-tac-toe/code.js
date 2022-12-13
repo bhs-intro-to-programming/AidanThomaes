@@ -24,14 +24,18 @@ board()
 let move = 0
 
 registerOnclick((x, y) => {
-  if (move % 2 === 0) {
-    if (y < height / 3 && x < width / 3) {
-      drawText ('X', 90, 60, 'black' , Math.min(width,height)/3)
+  const whichRow = (x) => {
+    if (x < height / 3) {
+      return 1
+      console.log[1]
     }
   }
+  const boardRow = ['','','']
+  const fullBoard = [boardRow,boardRow,boardRow]
+  const move = 
   
 
-  move++
+
 });
 
 
