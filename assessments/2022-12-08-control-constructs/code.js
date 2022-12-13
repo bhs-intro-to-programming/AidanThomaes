@@ -17,7 +17,7 @@ const countXs = (s) => {
   return count
 }
 
-//a little scuffed, kind of works
+
 const timesTable = (n) => {
   for (let x = 1; x <= n; x++) {
     for(let y = 1; y <= n; y++) {
