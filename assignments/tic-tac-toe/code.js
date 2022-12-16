@@ -65,9 +65,10 @@ registerOnclick((x, y) => {
     return { row, column, marker }
   }
 
-  const placeMove = (move, fullBoard) => [
+  const placeMove = (move, fullBoard) => {
     fullboard[move.row][move.column] = move.marker
-  ]
+    return fullBoard
+  }
 
 
 
