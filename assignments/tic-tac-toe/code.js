@@ -24,51 +24,14 @@ board()
 let move = 0
 
 registerOnclick((x, y) => {
-  let row = 0
-  const whichRow = (x) => {
-    if (x < height / 3) {
-      row = 1
-    } else if (height / 3 < x < height / 1.5) {
-      row = 2
-    } else {
-      row = 3
+  if (move % 2 === 0) {
+    if (y < height / 3 && x < width / 3) {
+      drawText ('X', 90, 60, 'black' , Math.min(width,height)/3)
     }
-  }
-
-  let column = 0
-  const whichColumn = (y) => {
-    if (y < width / 3) {
-      column = 1
-    } else if (width / 3 < y < width / 1.5) {
-      column = 2
-    } else {
-      column = 3
-    }
-  }
-
-  let marker = ''
-  let turn = 0
-  if (turn % 2 === 0) {
-    marker = 'X'
-  } else {
-    marker = 'O'
   }
   
 
-
-  const boardRow = ['', '', '']
-  const fullBoard = [boardRow, boardRow, boardRow]
-  const move = (row, column, marker) => {
-    return { row, column, marker }
-  }
-
-  const placeMove = (move, fullBoard) => {
-    fullboard[move.row][move.column] = move.marker
-
-  }
-
-
-
+  move++
 });
 
 
