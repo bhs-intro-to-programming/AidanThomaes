@@ -28,16 +28,30 @@ registerOnclick((x, y) => {
   const whichRow = (x) => {
     if (x < height / 3) {
       row = 1
-    } else if (height/3 < x < height/1.5) {
-      
+    } else if (height / 3 < x < height / 1.5) {
+      row = 2
+    } else {
+      row = 3
     }
   }
-  const boardRow = ['','','']
-  const fullBoard = [boardRow,boardRow,boardRow]
-  const move = (row, column, marker) => {
-    return {row, column, marker}
+
+  let column = 0
+  const whichColumn = (y) => {
+     if (y < width / 3) {
+      column = 1
+    } else if (width / 3 < y < width / 1.5) {
+      column = 2
+    } else {
+      column = 3
+    }
   }
-  
+
+  const boardRow = ['', '', '']
+  const fullBoard = [boardRow, boardRow, boardRow]
+  const move = (row, column, marker) => {
+    return { row, column, marker }
+  }
+
 
 
 });
