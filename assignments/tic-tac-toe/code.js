@@ -46,7 +46,13 @@ registerOnclick((x, y) => {
     }
   }
 
-  
+  let marker = ''
+  let turn = 0
+  if (turn % 2 === 0) {
+    marker = 'X'
+  } else {
+    marker = 'O'
+  }
   
 
 
