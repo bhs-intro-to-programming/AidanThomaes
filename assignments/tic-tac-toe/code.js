@@ -46,7 +46,7 @@ registerOnclick((x, y) => {
     }
   }
 
-  const whichTurn = turn % 2 ? 0 === 'X' : 'O'
+  const marker = turn % 2 ? 0 === 'X' : 'O'
   drawText(, x, y, 'black', Math.min(height, width) / 3)
 
   const boardRow = ['', '', '']
