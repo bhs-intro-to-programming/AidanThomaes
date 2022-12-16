@@ -35,16 +35,7 @@ registerOnclick((x, y) => {
     }
   }
 
-  let column = 0
-  const whichColumn = (y) => {
-    if (y < width / 3) {
-      column = 1
-    } else if (width / 3 < y < width / 1.5) {
-      column = 2
-    } else {
-      column = 3
-    }
-  }
+  
 
   const marker = turn % 2 === 0 ? 'X' : 'O'
   turn++
