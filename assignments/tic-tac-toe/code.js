@@ -46,7 +46,7 @@ registerOnclick((x, y) => {
     }
   }
 
-  turn = 0
+  let turn = 0
   const marker = turn % 2 ? 0 === 'X' : 'O'
   drawText(marker, x, y, 'black', Math.min(height, width) / 3)
   turn++
