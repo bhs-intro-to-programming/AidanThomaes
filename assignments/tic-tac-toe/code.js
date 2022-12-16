@@ -8,7 +8,7 @@
 const board = () => {
   let x = 0
   let y = 0
-  for (let i = 0; i < 4; i++) {
+  for (let i = 0; i < 2; i++) {
     x = (i + 1) * width / 3
     drawLine(x, 0, x, height, 'black')
   }
@@ -21,16 +21,48 @@ board()
 
 
 
-let move = 0
+let turn = 0
 
 registerOnclick((x, y) => {
-  const turn = move % 2 === 0 ? 'X' : 'O';
-  move++
-  
+  let row = 0
+  const whichRow = (x) => {
+    if (x < height / 3) {
+      row = 1
+    } else if (height / 3 < x < height / 1.5) {
+      row = 2
+    } else {
+      row = 3
+    }
+  }
+
+  let column = 0
+  const whichColumn = (y) => {
+    if (y < width / 3) {
+      column = 1
+    } else if (width / 3 < y < width / 1.5) {
+      column = 2
+    } else {
+      column = 3
+    }
+  }
+
+  const marker = turn % 2 === 0 ? 'X' : 'O'
   
 
 
-  drawText(turn, x, row, 'black', Math.min(width, height) / 3)
+  const boardRow = ['', '', '']
+  const fullBoard = [boardRow, boardRow, boardRow]
+  const move = (row, column, marker) => {
+    return { row, column, marker }
+  }
+
+  const placeMove = (move, fullBoard) => {
+    fullboard[move.row][move.column] = move.marker
+
+  }
+
+
+
 });
 
 
