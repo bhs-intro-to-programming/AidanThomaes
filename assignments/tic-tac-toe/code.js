@@ -45,7 +45,7 @@ registerOnclick((x, y) => {
   const marker = turn % 2 === 0 ? 'X' : 'O'
   turn++
 
-  drawText(marker, column * (width / 3) - 70 * column, row * (height / 3), 'black', Math.min(width, height) / 3)
+  drawText(marker, column * (width / 3) - 59.6 * column, row * (height / 3), 'black', Math.min(width, height) / 3)
 
   const boardRow = ['', '', '']
   const fullBoard = [boardRow, boardRow, boardRow]
