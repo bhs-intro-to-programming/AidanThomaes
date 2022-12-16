@@ -35,7 +35,7 @@ registerOnclick((x, y) => {
   
   if (x < width / 3) {
     column = 1
-  } else if (width / 3 < x < width / 1.5) {
+  } else if (width / 3 < x && x < width / 1.5) {
     column = 2
   } else {
     column = 3
