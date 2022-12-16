@@ -8,7 +8,7 @@
 const board = () => {
   let x = 0
   let y = 0
-  for (let i = 0; i < 2; i++) {
+  for (let i = 0; i < 4; i++) {
     x = (i + 1) * width / 3
     drawLine(x, 0, x, height, 'black')
   }
@@ -24,14 +24,13 @@ board()
 let move = 0
 
 registerOnclick((x, y) => {
-  if (move % 2 === 0) {
-    if (y < height / 3 && x < width / 3) {
-      drawText ('X', 90, 60, 'black' , Math.min(width,height)/3)
-    }
-  }
+  const turn = move % 2 === 0 ? 'X' : 'O';
+  move++
+  
   
 
-  move++
+
+  drawText(turn, x, row, 'black', Math.min(width, height) / 3)
 });
 
 
