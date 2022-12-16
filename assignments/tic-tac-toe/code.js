@@ -58,6 +58,7 @@ registerOnclick((x, y) => {
     }
     turn++
   }
+  drawText(marker, x, y, 'black', Math.min(height, width) / 3)
 
   const boardRow = ['', '', '']
   const fullBoard = [boardRow, boardRow, boardRow]
@@ -67,7 +68,7 @@ registerOnclick((x, y) => {
 
   const placeMove = (move, fullBoard) => {
     fullboard[move.row][move.column] = move.marker
-    return fullBoard
+    
   }
 
 
