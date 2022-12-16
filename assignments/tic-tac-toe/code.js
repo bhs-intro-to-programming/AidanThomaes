@@ -27,7 +27,7 @@ let turn = 0
 registerOnclick((x, y) => {
   if (y < height / 3) {
     row = 1
-  } else if (height / 3 < y < height / 1.5) {
+  } else if (height / 3 < y && y < height / 1.5) {
     row = 2
   } else {
     row = 3
