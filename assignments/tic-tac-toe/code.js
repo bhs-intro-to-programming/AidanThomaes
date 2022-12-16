@@ -46,12 +46,14 @@ registerOnclick((x, y) => {
     }
   }
 
-  
-    let turn = 0
-    const marker = turn % 2 === 0 ? 'X' : 'O'
-    drawText(marker, x, y, 'black', Math.min(height, width) / 3)
-    turn++
-  
+
+  const whichTurn = () => {
+    for (let turn = 0; tuen < 9; turn++) {
+      const marker = turn % 2 === 0 ? 'X' : 'O'
+      drawText(marker, x, y, 'black', Math.min(height, width) / 3)
+    }
+  }
+
 
   const boardRow = ['', '', '']
   const fullBoard = [boardRow, boardRow, boardRow]
@@ -61,7 +63,7 @@ registerOnclick((x, y) => {
 
   const placeMove = (move, fullBoard) => {
     fullboard[move.row][move.column] = move.marker
-    
+
   }
 
 
