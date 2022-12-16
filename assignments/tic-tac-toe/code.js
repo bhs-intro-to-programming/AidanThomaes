@@ -21,7 +21,7 @@ board()
 
 
 let row = 0
-
+let column = 0
 let turn = 0
 
 registerOnclick((x, y) => {
@@ -33,13 +33,19 @@ registerOnclick((x, y) => {
     row = 3
   }
   
-
+  if (x < width / 3) {
+    column = 1
+  } else if (width / 3 < x < width / 1.5) {
+    column = 2
+  } else {
+    column = 3
+  }
   
 
   const marker = turn % 2 === 0 ? 'X' : 'O'
   turn++
 
-  drawText(marker, row * (height / 3), y , 'black', Math.min(width, height) / 3)
+  drawText(marker, row * (height / 3), column * (width / 3), 'black', Math.min(width, height) / 3)
 
   const boardRow = ['', '', '']
   const fullBoard = [boardRow, boardRow, boardRow]
