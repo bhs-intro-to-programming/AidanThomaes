@@ -37,7 +37,7 @@ registerOnclick((x, y) => {
 
   let column = 0
   const whichColumn = (y) => {
-     if (y < width / 3) {
+    if (y < width / 3) {
       column = 1
     } else if (width / 3 < y < width / 1.5) {
       column = 2
@@ -46,11 +46,28 @@ registerOnclick((x, y) => {
     }
   }
 
+  let marker = ''
+  let turn = 0
+  const whichTurn = (turn) => {
+    for (let i = 0; i < 9; i++) {
+      if (turn % 2 === 0) {
+        marker = 'X'
+      } else {
+        marker = 'O'
+      }
+    }
+    turn++
+  }
+
   const boardRow = ['', '', '']
   const fullBoard = [boardRow, boardRow, boardRow]
   const move = (row, column, marker) => {
     return { row, column, marker }
   }
+
+  const placeMove = (move, fullBoard) => [
+    fullboard[move.row][move.column] = move.marker
+  ]
 
 
 
