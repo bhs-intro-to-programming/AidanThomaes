@@ -47,7 +47,7 @@ registerOnclick((x, y) => {
   }
 
   const marker = turn % 2 === 0 ? 'X' : 'O'
-  
+  turn ++
 
 
   const boardRow = ['', '', '']
