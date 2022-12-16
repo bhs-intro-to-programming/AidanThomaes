@@ -48,7 +48,7 @@ registerOnclick((x, y) => {
 
 
   const whichTurn = () => {
-    for (let turn = 0; tuen < 9; turn++) {
+    for (let turn = 0; turn < 9; turn++) {
       const marker = turn % 2 === 0 ? 'X' : 'O'
       drawText(marker, x, y, 'black', Math.min(height, width) / 3)
     }
