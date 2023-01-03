@@ -12,3 +12,9 @@
 //
 // Which will load the file and pass them to your function and then print the
 // return value in the REPL.
+const calories = '1000 2000 3000  4000  5000 6000'
+const split = calories.split('  ');
+
+const day1Part1 = (split) => {
+  return Number.parseInt (split[0], 10)
+}
