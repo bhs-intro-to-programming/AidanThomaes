@@ -1,6 +1,6 @@
 // Change these to change the physics of our world.
 let bounce = 0.7;
-let gravity = 0.001;
+let gravity = 1.0;
 let ballSize = 15;
 
 // The framework will draw the background for us. It also provides three
@@ -17,10 +17,13 @@ let ballSize = 15;
 // May also need to define a variable to keep track of when each bounce starts
 // as the time value that is passed in is just the current time, i.e. the same
 // thing we would get from calling now().
-const drawFrame = (time) => {};
+const drawFrame = (time) => {
+    let h = height(now() - start)
+    drawBall(height,15);
+};
 
 // Compute the height in pixels at time t after the ball hit the ground
-const height = (t) => 0;
+const height = (t) => Math.max(0, t * (bounce - (gravity*t)) / 2) ;
 
 // Compute the shade of the shadow. 0 is black; 255 is white.
 const shadowDarkness = (h) => 0;
